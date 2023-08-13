@@ -1,0 +1,70 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@3731.ve4b_5b_857b_a_d3">
+    <parentIds>
+      <string>19</string>
+    </parentIds>
+    <id>20</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1251.vd4889a_b_0a_065">
+      <startTime>1691877902138</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1251.vd4889a_b_0a_065">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@639.v6eca_cd8c04a_a_">
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.steps.BodyExecution.cancel(BodyExecution.java:59)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable$1.lambda$interrupt$1(ExecutorStepExecution.java:1060)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:449)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:445)</trace>
+          <trace>com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1133)</trace>
+          <trace>com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:31)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1286)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:1055)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:782)</trace>
+          <trace>com.google.common.util.concurrent.SettableFuture.set(SettableFuture.java:49)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1040)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1018)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$5$1.run(CpsFlowExecution.java:934)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+          <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1251.vd4889a_b_0a_065">
+            <stackTrace/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>94e223f8-4183-46e1-a5c1-5c9aaff61e2f</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <jenkins.model.CauseOfInterruption_-UserInterruption>
+              <user>admin</user>
+            </jenkins.model.CauseOfInterruption_-UserInterruption>
+          </a>
+        </causes>
+        <actualInterruption>true</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.ErrorAction plugin="workflow-api@1251.vd4889a_b_0a_065">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../wf.a.ErrorAction/error"/>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

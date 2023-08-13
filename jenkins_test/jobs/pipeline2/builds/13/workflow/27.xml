@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3731.ve4b_5b_857b_a_d3">
+    <parentIds>
+      <string>26</string>
+    </parentIds>
+    <id>27</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.input.InputStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3731.ve4b_5b_857b_a_d3">
+      <arguments>
+        <entry>
+          <string>message</string>
+          <string>Choose one or more maximal numbers:</string>
+        </entry>
+        <entry>
+          <string>choices</string>
+          <list>
+            <string>37682
+</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1251.vd4889a_b_0a_065">
+      <startTime>1691885432426</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <s.a.PauseAction>
+      <cause>Input</cause>
+      <startTime>1691885432447</startTime>
+      <endTime>1691885439923</endTime>
+    </s.a.PauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction plugin="pipeline-input-step@477.v339683a_8d55e">
+      <parameters class="linked-hash-map"/>
+      <approver>admin</approver>
+    </org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction>
+  </actions>
+</Tag>

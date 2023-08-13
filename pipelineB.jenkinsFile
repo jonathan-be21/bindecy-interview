@@ -1,0 +1,32 @@
+def savedNumbersDir = 'saved-numbers'
+pipeline {
+    agent any
+    stages {
+        stage('git') {
+            steps {
+                script {
+                    git branch: 'wip', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                }
+            }
+        }
+        stage('Generate Maximal Number') {
+            steps {
+                script {
+                    copyArtifacts(projectName: 'test',selector: lastCompleted(), target: "./")
+                    sh "ls -l ${savedNumbersDir}"
+                    def maxNumbers = []
+                    def files = sh(script: "ls ${savedNumbersDir}", returnStdout: true).trim().split("\n")
+                    dir(savedNumbersDir) {
+                        for (file in files) {
+                            def currentMaxNumber = readFile(file)
+                            maxNumbers.add(currentMaxNumber)
+                        }
+                    }
+                    println(maxNumbers)
+                    def selectedMaxNumbers = []
+                    selectedMaxNumbers = input(message: 'Choose one or more maximal numbers:',choices: maxNumbers)
+                }
+            }
+        }
+    }
+}

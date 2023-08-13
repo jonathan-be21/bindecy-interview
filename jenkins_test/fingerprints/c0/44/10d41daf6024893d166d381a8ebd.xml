@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-08-12 23:32:40.61 UTC</timestamp>
+  <md5sum>c04410d41daf6024893d166d381a8ebd</md5sum>
+  <fileName>maximalNumber-32.txt</fileName>
+  <usages>
+    <entry>
+      <string>test</string>
+      <ranges>33-34,36</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

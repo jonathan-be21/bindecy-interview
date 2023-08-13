@@ -1,0 +1,35 @@
+// define values for running in parallel
+def minParallelExec = 10
+def randNumbers = []
+
+pipeline {
+    agent any
+    stages {
+        stage('Generate Maximal Number') {
+            steps {
+                script {
+                    for (int i = 0; i < minParallelExec; i++) {
+                        node("java-docker-slave") {
+                            stage('test') {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers << randomNumber
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage('Save Maximal Number') {
+            steps {
+                script {
+                    def maximalNumber = randNumbers.max()
+                    println("max number: ${maximalNumber}")
+                    sh "echo ${maximalNumber} > maximalNumber.txt"
+                    artifacts {
+                        archiveArtifacts "maximalNumber.txt"
+                    }
+                }
+            }
+        }
+    }
+}

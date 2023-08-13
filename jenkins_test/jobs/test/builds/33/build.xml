@@ -1,0 +1,198 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1316.vd2290d3341a_f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@671.v07c339c842e8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <stagesUUID>dc12640a-0d3d-498e-9bdf-942f2ac5bd59</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2144.v077a_d1928a_40">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Generate Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">for (int i = 0; i &lt; 3; i++) {
+                        node(&quot;java-docker-slave&quot;) {
+                            stage(&apos;test&apos;) {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers &lt;&lt; randomNumber
+                            }
+                        }
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Save Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">println(&quot;randNumbers: ${randNumbers}&quot;)
+                    def maximalNumber = randNumbers.max()
+                    println(&quot;max number: ${maximalNumber}&quot;)
+                    sh &quot;mkdir -p saved-numbers&quot;
+                    copyArtifacts(projectName: &apos;test&apos;,selector: lastSuccessful(), target: &apos;saved-numbers&apos;)
+                    sh &quot;ls -l saved-numbers &amp;&amp; ls -ld saved-numbers&quot;
+                    sh &quot;echo ${maximalNumber} &gt; saved-numbers/maximalNumber-${currentBuild.number}.txt&quot;
+                    archiveArtifacts artifacts: &apos;saved-numbers/*.txt&apos;, fingerprint: true, onlyIfSuccessful: true</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>dc12640a-0d3d-498e-9bdf-942f2ac5bd59</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@714.v28a_34f8c563f"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>saved-numbers/maximalNumber-33.txt</string>
+          <string>7215fbef584a2a1e42ebbef2ab0d9e30</string>
+        </entry>
+        <entry>
+          <string>saved-numbers/maximalNumber.txt</string>
+          <string>767ebb5ed9143535efde689e3a7a8fbc</string>
+        </entry>
+        <entry>
+          <string>saved-numbers/maximalNumber-32.txt</string>
+          <string>c04410d41daf6024893d166d381a8ebd</string>
+        </entry>
+        <entry>
+          <string>saved-numbers/maximalNumber-30.txt</string>
+          <string>c95f1b3a6c1e056b9461ed18b8905e02</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>132</queueId>
+  <timestamp>1691882892574</timestamp>
+  <startTime>1691882892578</startTime>
+  <result>SUCCESS</result>
+  <duration>267707</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>// define values for running in parallel
+def minParallelExec = 10
+def randNumbers = []
+
+pipeline {
+    agent any
+    stages {
+        stage(&apos;Generate Maximal Number&apos;) {
+            steps {
+                script {
+                    for (int i = 0; i &lt; 3; i++) {
+                        node(&quot;java-docker-slave&quot;) {
+                            stage(&apos;test&apos;) {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers &lt;&lt; randomNumber
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage(&apos;Save Maximal Number&apos;) {
+            steps {
+                script {
+                    println(&quot;randNumbers: ${randNumbers}&quot;)
+                    def maximalNumber = randNumbers.max()
+                    println(&quot;max number: ${maximalNumber}&quot;)
+                    sh &quot;mkdir -p saved-numbers&quot;
+                    copyArtifacts(projectName: &apos;test&apos;,selector: lastSuccessful(), target: &apos;saved-numbers&apos;)
+                    sh &quot;ls -l saved-numbers &amp;&amp; ls -ld saved-numbers&quot;
+                    sh &quot;echo ${maximalNumber} &gt; saved-numbers/maximalNumber-${currentBuild.number}.txt&quot;
+                    archiveArtifacts artifacts: &apos;saved-numbers/*.txt&apos;, fingerprint: true, onlyIfSuccessful: true
+                }
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>758782143</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>281164915</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>3310040725</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>61172183</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1540563525</long>
+      </entry>
+    </timings>
+    <sandbox>false</sandbox>
+    <iota>54</iota>
+    <head>1:54</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
