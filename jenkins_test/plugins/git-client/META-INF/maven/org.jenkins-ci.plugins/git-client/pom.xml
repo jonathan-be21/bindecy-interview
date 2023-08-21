@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -200,3 +201,8 @@
     </plugins>
   </build>
 </project>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:e00d7d5f75a67a4809e0345f9cd55c7044330d46a0b48476591091105bba23e1
+size 6839
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

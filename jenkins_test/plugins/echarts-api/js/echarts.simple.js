@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -45344,3 +45345,8 @@
 
 })));
 //# sourceMappingURL=echarts.simple.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:35ba54499d0b725fd563f7db916dd9f95402732195207860798933177f8563b8
+size 1580048
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

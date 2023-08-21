@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // We match the end of the name using $= because the beginning of the name is 
 // dynamically generated to avoid name clashes.
 Behaviour.specify("input[name$=_configuredByUrlRadio]", 'GitHubSCMSourceRadioConfiguration', 0, function(e) {
@@ -27,3 +28,8 @@ Behaviour.specify("input[name$=_configuredByUrlRadio]", 'GitHubSCMSourceRadioCon
     }
     e.gitHubSCMSourceRadioConfiguration = true;
 });
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:91d8c2a766da1df2d686258c65955294f9336cf93815a817c7a157347f1815db
+size 1426
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

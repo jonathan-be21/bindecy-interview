@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -18,3 +19,8 @@ Plugin-License-Name: The MIT License (MIT)
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/snakeyaml-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:f44d139c6a65d21798284f1e7337c35fd42cd06781c7d147ce8cbc9fc6bb63a0
+size 707
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

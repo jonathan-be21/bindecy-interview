@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.5.2
 Build-Jdk-Spec: 11
@@ -19,3 +20,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/workflow-step-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:621ca419839b2f86c7149607a51652d75c6fc2e3a523058262951588fad4f483
+size 751
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

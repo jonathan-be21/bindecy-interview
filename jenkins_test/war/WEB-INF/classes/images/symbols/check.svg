@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Checkmark</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ce83eb28a6d6b62625f9295543fe256d58a57859c0a712bcf6e8e1afe1582ab
+size 242
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

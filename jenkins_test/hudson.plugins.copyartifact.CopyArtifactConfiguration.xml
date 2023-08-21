@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.copyartifact.CopyArtifactConfiguration plugin="copyartifact@714.v28a_34f8c563f">
   <mode>PRODUCTION</mode>
 </hudson.plugins.copyartifact.CopyArtifactConfiguration>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cfe7c944e5f818b1e306266830e482e7c36c464fb971cc1eee03e75858cdf8e
+size 218
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

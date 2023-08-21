@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -19,3 +20,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-stage-step-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d8060d3a35373b70354c2637997c79b2bcda630e3d936f95bc5c98bbc072831
+size 766
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

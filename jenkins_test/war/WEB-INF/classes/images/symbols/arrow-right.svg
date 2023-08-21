@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Forward</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M268 112l144 144-144 144M392 256H100"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6e2da8408e3afdfdc1160c48c65e3f405ac78fd145c44a50f767e1cbdfd2318
+size 259
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

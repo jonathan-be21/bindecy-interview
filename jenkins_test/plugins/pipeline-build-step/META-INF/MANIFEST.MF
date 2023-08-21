@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -26,3 +27,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-build-step-plugin
 Plugin-GitHash: 5f0844d8d1261c943ed204ec714be0961ec2f8f1
 Implementation-Build: 5f0844d8d1261c943ed204ec714be0961ec2f8f1
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9af7879b01f08d4f1d85d03d15adde35aa83d49314258348e4f8bf4014d7b34
+size 1173
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-multibranch' version='756.v891d88f2cd46'><l:dependency name='Pipeline: Multibranch' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-multibranch' version='756.v891d88f2cd46' url='https://github.com/jenkinsci/workflow-multibranch-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9f5685f7e7164022735f2caf5a6ba890d4d31d7f381df49183d8b281cfe6a11
+size 562
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

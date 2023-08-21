@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (self["webpackChunkjenkins_ui"] = self["webpackChunkjenkins_ui"] || []).push([[216],{
 
 /***/ 2058:
@@ -22736,3 +22737,8 @@ exports.reset = function() {
 
 }]);
 //# sourceMappingURL=vendors.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3192b5a0a313484f727e3b29887dc56722f1943338824749810c97d4b8f7b1da
+size 750637
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

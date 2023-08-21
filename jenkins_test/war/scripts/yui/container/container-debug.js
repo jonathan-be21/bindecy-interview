@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -9300,3 +9301,8 @@ version: 2.9.0
 
 })();
 YAHOO.register("container", YAHOO.widget.Module, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3ca0de513013b8c64fadc054e09b0d58daa5174186c5e1c622dbee40480efe8
+size 336164
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

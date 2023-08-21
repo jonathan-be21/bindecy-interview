@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
    Behaviour v1.1 by Ben Nolan, June 2005. Based largely on the work
    of Simon Willison (see comments by Simon below).
@@ -206,3 +207,8 @@ function findElementsBySelector(startNode, selector, includeSelf) {
 document.getElementsBySelector = function (selector) {
   return findElementsBySelector(document, selector);
 };
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7d5b1ee2eae02cbe1b3a90c902fb0e3e6c8dfac095cb59fc1002dc9276c3d6
+size 6544
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

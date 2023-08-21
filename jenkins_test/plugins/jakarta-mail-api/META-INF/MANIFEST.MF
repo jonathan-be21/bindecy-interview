@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -20,3 +21,8 @@ Plugin-License-Name: EPL-2.0
 Plugin-License-Url: https://opensource.org/licenses/EPL-2.0
 Plugin-ScmUrl: https://github.com/jenkinsci/jakarta-mail-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ba522a41d7691220a05d0ca4469bce71e52795e671a24598db1010e6482cac5
+size 737
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

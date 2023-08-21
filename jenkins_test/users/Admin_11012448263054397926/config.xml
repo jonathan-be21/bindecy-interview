@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <user>
   <version>10</version>
@@ -56,3 +57,8 @@
     </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9366d39018d2031259388767708a1ea389e1a7994f983685ad20ef2f8eb5fa47
+size 2579
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

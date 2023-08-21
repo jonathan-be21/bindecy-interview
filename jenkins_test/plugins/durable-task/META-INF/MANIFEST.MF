@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -23,3 +24,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/durable-task-plugin
 Plugin-GitHash: c48aa075ad93a6750c2ed1bc18bcb0a214e4b66a
 Implementation-Build: c48aa075ad93a6750c2ed1bc18bcb0a214e4b66a
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad745c48a40fda399ad98c341ff4d7452bdca8a1accb0e3e6474fd8c5118f672
+size 944
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

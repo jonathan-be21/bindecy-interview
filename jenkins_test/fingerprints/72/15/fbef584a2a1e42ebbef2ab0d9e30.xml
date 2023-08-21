@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <fingerprint>
   <timestamp>2023-08-12 23:32:40.75 UTC</timestamp>
@@ -15,3 +16,8 @@
   </usages>
   <facets/>
 </fingerprint>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:93e4e3077dacbbe11c69cc1072e11445c10985c9075989bc48618053d1e65897
+size 408
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -18,3 +19,8 @@ Plugin-License-Name: CDDL-1.1
 Plugin-License-Url: https://spdx.org/licenses/CDDL-1.1.html
 Plugin-ScmUrl: https://github.com/jenkinsci/javax-activation-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:851c8ac393723f04a5c15279c578696ef4cf84e617bc01f3612ea4a767306525
+size 740
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

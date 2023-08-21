@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * The MIT License
  *
@@ -2846,3 +2847,8 @@ var layoutUpdateCallback = {
     }
   },
 };
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a83c8c11127ee4c7153859809b5646d192d06b965dd1b17ba7e5a6a6dacb47e4
+size 82383
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

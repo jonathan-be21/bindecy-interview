@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Started by user [8mha:////4GQCzjRwjZOb63HArq7n3oCLlNDs7X3lP4HJoG1nGr3QAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
 org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
 WorkflowScript: 4: Not a valid section definition: "def minParallelExec = 10". Some extra configuration is required. @ line 4, column 5.
@@ -26,3 +27,8 @@ WorkflowScript: 5: Not a valid section definition: "def generateNumberStage". So
 	at hudson.model.ResourceController.execute(ResourceController.java:101)
 	at hudson.model.Executor.run(Executor.java:442)
 Finished: FAILURE
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a28f3f378d69cbdce21bb4637d9d470e286e5ea9ca963a20e591a7f7921d800d
+size 2019
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

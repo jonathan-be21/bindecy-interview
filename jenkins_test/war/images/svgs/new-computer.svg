@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
@@ -782,3 +783,8 @@
        sodipodi:type="arc" />
   </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c2ec522f3df6469bf19a324b6063d5a2681f49bd8fd0d44a029c473d13778ce
+size 38710
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

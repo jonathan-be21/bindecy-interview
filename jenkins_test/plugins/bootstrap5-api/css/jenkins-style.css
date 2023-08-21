@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ------------------------------------------------------------------------------------------------------------------- */
 /* Undo problematic bootstrap styles
 /* These styles will only be picked up on Jenkins >=2.239
@@ -140,3 +141,8 @@ pre {
     backdrop-filter: contrast(0.6) brightness(2.4) saturate(2) blur(15px);
     box-shadow: 0 0 8px 2px rgba(0,0,30,.05), 0 0 1px 1px rgba(0,0,20,.025), 0 10px 20px rgba(0,0,20,.15);
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:76520bc062fbd33e29cbc227c74f65ff4d3dd503622b5197fb8445f099d78426
+size 4277
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

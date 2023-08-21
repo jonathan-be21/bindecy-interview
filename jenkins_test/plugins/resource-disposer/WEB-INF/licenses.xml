@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='resource-disposer' version='0.23'><l:dependency name='Resource Disposer Plugin' groupId='org.jenkins-ci.plugins' artifactId='resource-disposer' version='0.23' url='https://github.com/jenkinsci/resource-disposer-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d47a78c6ad8c86054916375317752a69aa2da94f7a689c438e32040fc02b8761
+size 512
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

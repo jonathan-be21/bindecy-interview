@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Started by user [8mha:////4GQCzjRwjZOb63HArq7n3oCLlNDs7X3lP4HJoG1nGr3QAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
 org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
 WorkflowScript: 15: unexpected token: . @ line 15, column 90.
@@ -30,3 +31,8 @@ WorkflowScript: 15: unexpected token: . @ line 15, column 90.
 	at hudson.model.ResourceController.execute(ResourceController.java:101)
 	at hudson.model.Executor.run(Executor.java:442)
 Finished: FAILURE
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ef16405d105b7adafb1f209df0766b3418fd01184b3c8e1708ca9458699f26c
+size 2443
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

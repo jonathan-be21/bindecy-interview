@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* set the overriding variables */
 /* override the !default vars with the values we set above */
 :root,
@@ -11759,3 +11760,8 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap-custom-build.rtl.css.map */
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:795dc56ef973de8d30c365dcf72405b82bdc24cf46e00d38581d4e6a71d3e0d2
+size 266952
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

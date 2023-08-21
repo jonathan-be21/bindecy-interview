@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
@@ -607,3 +608,8 @@
      id="layer2"
      inkscape:label="pattern" />
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6ab2bb9fa04cbfc422c16035d66f9bd29c148f31b01cc3a74200c58699912da
+size 33542
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

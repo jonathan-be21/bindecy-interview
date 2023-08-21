@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -55,3 +56,8 @@ version: 2.9.0
 .yui-log .error {background-color:#E32F0B;} /* E32F0B red */
 .yui-log .time {background-color:#A6C9D7;} /* A6C9D7 blue */
 .yui-log .window {background-color:#F2E886;} /* F2E886 tan */
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:20e54aeffa8c30b83ca8baa6568321116d32b0c362671326922a7307c7d42a59
+size 2250
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

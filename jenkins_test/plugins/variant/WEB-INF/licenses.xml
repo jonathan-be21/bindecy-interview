@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='variant' version='59.vf075fe829ccb'><l:dependency name='Variant Plugin' groupId='org.jenkins-ci.plugins' artifactId='variant' version='59.vf075fe829ccb' url='https://github.com/jenkinsci/variant-plugin'><l:description>This user-invisible library plugin allows other multi-modal plugins to behave differently depending on where they run.</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:49b6eb2dee8703459dc87e15919f347fc43b73dd17955f28bd60c995eb5caa3b
+size 575
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

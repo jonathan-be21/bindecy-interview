@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:113e470641b2450e0e9ab303e7789cb70d45e11eab7c7ff174cec08031e92b8f
+size 227
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

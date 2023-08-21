@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
@@ -360,3 +361,8 @@ Jakub Steiner</dc:title>
        id="path5578" />
   </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:eca0391934efb373ab1d8f8734e5712bdfc744f342957564f20c36060042e173
+size 26846
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

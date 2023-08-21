@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
  * jQuery JavaScript Library v3.7.0
  * https://jquery.com/
@@ -10702,3 +10703,8 @@ if ( typeof noGlobal === "undefined" ) {
 
 return jQuery;
 } );
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:265a924c42de4784cba8fd0e1bd77133bc833ea5f5a31fc77e08922c18fcfa43
+size 284996
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

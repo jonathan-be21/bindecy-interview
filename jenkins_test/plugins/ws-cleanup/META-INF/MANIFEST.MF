@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -19,3 +20,8 @@ Plugin-License-Name: The MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/ws-cleanup-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:56ac4005bb7505a7d317f40d912dd7c371e055e2d2de9ffa5e04209bde01f02d
+size 814
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

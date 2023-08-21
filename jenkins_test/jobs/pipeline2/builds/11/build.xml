@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-build plugin="workflow-job@1316.vd2290d3341a_f">
   <actions>
@@ -224,3 +225,8 @@ pipeline {
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>
 </flow-build>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:313e4744e519596b5f632fd0b902ae8c365676931c8a2e5f06663053519a1c34
+size 10797
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

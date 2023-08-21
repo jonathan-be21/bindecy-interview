@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-step-api' version='639.v6eca_cd8c04a_a_'><l:dependency name='Pipeline: Step API' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-step-api' version='639.v6eca_cd8c04a_a_' url='https://github.com/jenkinsci/workflow-step-api-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3d923a3f749bc9f68561c1522c2b4f854a2899f857be16b0c4fc8dc4df1d180
+size 556
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

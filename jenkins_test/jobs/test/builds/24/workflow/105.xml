@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <Tag plugin="workflow-support@848.v5a_383b_d14921">
   <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1251.vd4889a_b_0a_065">
@@ -78,3 +79,8 @@
     </wf.a.TimingAction>
   </actions>
 </Tag>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e94f33a423969c4d8bc4911ec4b588492e9669ef2df389b486d709c18b4f8cc
+size 10266
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

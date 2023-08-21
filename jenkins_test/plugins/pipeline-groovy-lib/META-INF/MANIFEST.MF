@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -30,3 +31,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-groovy-lib-plugin
 Plugin-GitHash: 07c339c842e8fcf28681d6d8885310aea3cc4d87
 Implementation-Build: 07c339c842e8fcf28681d6d8885310aea3cc4d87
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c46859d1d7ecfa5a3bc7e56248a9ca07f60330722ce221051788855a5f59fa8f
+size 1451
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

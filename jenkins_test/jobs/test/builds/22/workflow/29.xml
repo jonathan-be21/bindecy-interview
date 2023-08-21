@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <Tag plugin="workflow-support@848.v5a_383b_d14921">
   <node class="cps.n.StepStartNode" plugin="workflow-cps@3731.ve4b_5b_857b_a_d3">
@@ -24,3 +25,8 @@
     </wf.a.TimingAction>
   </actions>
 </Tag>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff39c2f0bd8a2e0e7a657c2f89d553e2b9f7ded1e71babe3c6b22205a1f4283e
+size 881
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

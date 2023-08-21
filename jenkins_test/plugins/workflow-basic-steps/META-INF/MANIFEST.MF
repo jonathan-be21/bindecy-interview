@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-basic-steps-plugin
 Plugin-GitHash: e7b140c4ae0ce7bb79cfbc43cd307533b901d2a8
 Implementation-Build: e7b140c4ae0ce7bb79cfbc43cd307533b901d2a8
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9172574fa7bd437d1a8921c1d133caf843b488afdcf0829419e2bc97ac6dc5ca
+size 1290
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

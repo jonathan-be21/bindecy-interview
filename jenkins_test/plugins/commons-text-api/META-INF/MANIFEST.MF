@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/commons-text-api-plugin
 Plugin-GitHash: 0d0bc439292b5348779d649c43d767251475ae9e
 Implementation-Build: 0d0bc439292b5348779d649c43d767251475ae9e
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:366cde748a1c8e174ebfc41cc0d4959432f57c6d3e65fd4a4577e6f5db711161
+size 1085
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

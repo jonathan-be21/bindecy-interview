@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -19,3 +20,8 @@ Plugin-License-Url: https://opensource.org/licenses/BSD-3-Clause
 Plugin-ScmUrl: https://github.com/jenkinsci/jakarta-activation-api-plugi
  n
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c723dff9181ff8261efb43f262da2d0ed77a256a76de153ffcbea2155530c68e
+size 704
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

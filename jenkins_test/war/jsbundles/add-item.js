@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -562,3 +563,8 @@ var update = _yarn_virtual_style_loader_virtual_4e01a8a9a7_0_cache_style_loader_
 /******/ })()
 ;
 //# sourceMappingURL=add-item.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb6cf91c552f6be52090454b62b4a54cb844f1d9e05af811c818c088668f87ec
+size 32900
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

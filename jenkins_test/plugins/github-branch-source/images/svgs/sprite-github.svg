@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Sourced from https://github.com/primer/octicons -->
 <svg xmlns="http://www.w3.org/2000/svg">
     <symbol id="github-logo" viewBox="0 0 16 16">
@@ -13,3 +14,8 @@
         <path fill-rule="evenodd" d="M17.5 8.75v-1H19v1a3.75 3.75 0 01-3.75 3.75h-7a1.75 1.75 0 00-1.75 1.75H5A3.25 3.25 0 018.25 11h7a2.25 2.25 0 002.25-2.25z"/>
     </symbol>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:da3f66079d4def3d9c0918602c293c3f46e870a0dca0d2cc8170f9d0c9f18122
+size 2006
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 17
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/echarts-api-plugin
 Plugin-GitHash: db2d25dc40f56fbee4b55bd4551e394495338ffb
 Implementation-Build: db2d25dc40f56fbee4b55bd4551e394495338ffb
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc5d17937ea56b665b12dd70472e8757c8d07cae8ca9fdd7eba7c2fb0f8c70df
+size 1141
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

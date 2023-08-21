@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Chevron Up</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 328l144-144 144 144"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f202a013dfefe60dc93023ea8752ec0e18afa5d1ef73da6da6a4d4ce3ea3e8b
+size 244
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

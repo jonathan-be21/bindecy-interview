@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="12.459681mm" height="10.0000029mm" viewBox="-2 -2 15.459681 10.0000029" version="1.1" id="svg5" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" sodipodi:docname="pipelinejob.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
@@ -15,3 +16,8 @@
       <path class="cls-6" d="m 537.12,329.41 h -64.76 a 34.94,34.94 0 0 0 -34.9,34.91 v 189.05 a 34.94,34.94 0 0 0 34.9,34.9 h 64.76 a 34.94,34.94 0 0 0 34.9,-34.9 v -189 a 34.94,34.94 0 0 0 -34.9,-34.96 z m 20.26,224 a 20.26,20.26 0 0 1 -20.26,20.26 H 472.36 A 20.26,20.26 0 0 1 452.1,553.41 v -189 a 20.27,20.27 0 0 1 20.26,-20.27 h 64.76 a 20.27,20.27 0 0 1 20.26,20.27 z" id="path27" /> </g>
   </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b4337f5f0ef9216416b93fe49d26499fe3af2c5d82c591bb39ee744342dbe70
+size 5365
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

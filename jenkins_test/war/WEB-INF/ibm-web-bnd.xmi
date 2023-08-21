@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
@@ -36,3 +37,8 @@ See https://issues.jenkins.io/browse/JENKINS-3270
   xmlns:webappbnd="webappbnd.xmi"
   virtualHostName="default_host">
 </webappbnd:WebAppBinding>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:83c02b60f953d4fd9cd152c2508d1314272d6749833106a2f87327cf85dcfca5
+size 1661
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

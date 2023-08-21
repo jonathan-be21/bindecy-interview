@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/ldap-plugin
 Plugin-GitHash: c02a69c9787f5da0957757f8c47054f14b720c13
 Implementation-Build: c02a69c9787f5da0957757f8c47054f14b720c13
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ace8be71de98390fc7007cdccf0f85fefc40958cd1dfaa4766eb33094615e237
+size 960
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

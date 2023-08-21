@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -29,3 +30,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-multibranch-plugin
 Plugin-GitHash: 891d88f2cd4628c6625dd62b45e9a768de531e9b
 Implementation-Build: 891d88f2cd4628c6625dd62b45e9a768de531e9b
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b8850641c91adb74fda5c91f655cbff5ac1612f8cb1955282602fb378071ae2
+size 1379
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

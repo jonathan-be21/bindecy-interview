@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -240,3 +241,8 @@ version: 2.9.0
     opacity: .12;
     filter: alpha(opacity=12);  /* For IE */
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb2bfcca9657f0a85b42bc5d889d898215eb9ced680c715d3b10e3e566e5bd4b
+size 5207
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@1316.vd2290d3341a_f">
   <actions>
@@ -55,3 +56,8 @@ pipeline {
   <triggers/>
   <disabled>false</disabled>
 </flow-definition>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:72dae6929089d89f3d50aa4c05141482e6afea2ba9b4f7e78062b3f704cf16bb
+size 2511
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

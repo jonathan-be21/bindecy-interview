@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  ~ The MIT License
@@ -87,3 +88,8 @@
     </plugins>
   </build>
 </project>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e1d7dd3e68dfe17c6f32c9b8aedbcd8fe0a33baaad302f26bbec28976bfc4d9
+size 3508
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

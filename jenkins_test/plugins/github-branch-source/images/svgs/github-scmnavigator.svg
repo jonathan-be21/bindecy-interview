@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:export-ydpi="90.000000" inkscape:export-xdpi="90.000000" inkscape:export-filename="/Users/stephenc/Desktop/icon.png" sodipodi:docname="folder-remote.svg" inkscape:version="0.48.5 r10040" sodipodi:version="0.32" id="svg97" height="48.000000px" width="48.000000px">
@@ -530,3 +531,8 @@
     </g>
   </g>
   <g inkscape:label="pattern" id="layer2" inkscape:groupmode="layer" /> </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce19fab24f015ddac0dba176e01d48e590d2d58a5a06834b06c24531104c7463
+size 81424
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/okhttp-api-plugin
 Plugin-GitHash: 6852aafaec1134670b49a6104fb051c863568d46
 Implementation-Build: 6852aafaec1134670b49a6104fb051c863568d46
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:54d2219738da93e24a00f743460766d34c95438eef561a9f661444d31b6efaf5
+size 968
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

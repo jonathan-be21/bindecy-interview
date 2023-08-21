@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-scm-step-plugin
 Plugin-GitHash: 43436556432475c736b81901c115c251018d7ac3
 Implementation-Build: 43436556432475c736b81901c115c251018d7ac3
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb9116f217b537ed27efc20e0a419ab4f11d393f2b124373671a3e7bec7e56ba
+size 1030
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

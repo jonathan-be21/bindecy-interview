@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='cloudbees-folder' version='6.846.v23698686f0f6'><l:dependency name='Folders Plugin' groupId='org.jenkins-ci.plugins' artifactId='cloudbees-folder' version='6.846.v23698686f0f6' url='https://github.com/jenkinsci/cloudbees-folder-plugin/'><l:description>This plugin allows users to create "folders" to organize jobs. Users can define custom taxonomies (like
     by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.</l:description><l:license name='MIT' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:125f7b847c8f3511efd62027ede838393c38299c445514d0ee6a72ab60805a3d
+size 724
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

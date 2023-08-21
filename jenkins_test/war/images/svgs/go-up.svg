@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <symbol viewBox="0 0 16 16" id="arrow">
       <g transform="translate(8.000000, 8.000000) scale(1, -1) translate(-8.000000, -8.000000) ">
@@ -5,3 +6,8 @@
       </g>
   </symbol>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3956213b831582145e137307008a472fdfd8e3f2aad05f7931540624db8daa4a
+size 801
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

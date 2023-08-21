@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/jackson2-api-plugin
 Plugin-GitHash: 0c2f3f8fc5958f06227af89b438134c09b4829d9
 Implementation-Build: 0c2f3f8fc5958f06227af89b438134c09b4829d9
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfc8bf8027cfca45b8d3941cd16abfc33d1a08f82a7cbdc30ad7443ee0ac1a1a
+size 1218
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

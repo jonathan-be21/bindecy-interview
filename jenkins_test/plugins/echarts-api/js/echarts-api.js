@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* exported echartsJenkinsApi */
 
 const trendDefaultStorageId = 'jenkins-echarts-trend-configuration-default';
@@ -647,3 +648,8 @@ const echartsJenkinsApi = {
         }
     }
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c1aa6bc65c7be36f41275e5f5be8072fb8684d533ab18099036a7e41402b3db
+size 26956
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

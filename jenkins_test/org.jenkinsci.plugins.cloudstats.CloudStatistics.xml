@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <org.jenkinsci.plugins.cloudstats.CloudStatistics plugin="cloud-stats@302.v45b_647b_90608">
   <active class="java.util.concurrent.CopyOnWriteArrayList"/>
@@ -4132,3 +4133,8 @@
     <size>85</size>
   </log>
 </org.jenkinsci.plugins.cloudstats.CloudStatistics>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bdbcdf051fb6597a855d9cb3e47029277bb6e97e82c73f9c28d83ca98748859
+size 242720
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

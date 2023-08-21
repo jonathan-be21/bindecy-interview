@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <Tag plugin="workflow-support@848.v5a_383b_d14921">
   <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1251.vd4889a_b_0a_065">
@@ -44,3 +45,8 @@ This may be due to incorrect project name or permission settings; see help for p
     </wf.a.TimingAction>
   </actions>
 </Tag>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4eb5c1a6f19b82206d8b5025c923cff53c5361d92f31c6c9858877dd44b950bf
+size 2364
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

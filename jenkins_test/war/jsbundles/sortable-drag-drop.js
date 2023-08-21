@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -219,3 +220,8 @@ window.registerSortableDragDrop = registerSortableDragDrop;
 /******/ })()
 ;
 //# sourceMappingURL=sortable-drag-drop.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:602f6cfb3e4a63c838f0ebc6b7ac4bea7e47187a9510c621f4bb42cb51140fcc
+size 8668
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 "version": 3,
 "mappings": "AACE,wBAAO;EAEH,YAAI,EAAE,IAAI;EACV,WAAG,EAAE,GAAG;EACR,cAAM,EAAE,GAAG;;;AAKjB,mBAAoB;EAClB,cAAc,EAAE,SAAS;;;AAKzB,iBAAS;EACP,WAAW,EAAE,IAAI;;AAGnB,eAAO;EACL,WAAW,EAAE,SAAS;EACtB,UAAU,EAAE,SAAS",
@@ -5,3 +6,8 @@
 "names": [],
 "file": "monitor.css"
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2541fc69cfc90592c937bdc6c26a50ca7388b38cf99e01ed78abf916e07c4277
+size 301
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

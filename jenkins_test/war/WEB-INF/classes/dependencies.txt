@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 The following files have been resolved:
    org.jenkins-ci.main:cli:jar:2.418:compile -- module cli (auto)
@@ -104,3 +105,8 @@ The following files have been resolved:
    org.junit.jupiter:junit-jupiter-engine:jar:5.10.0:test -- module org.junit.jupiter.engine
    org.junit.platform:junit-platform-engine:jar:1.10.0:test -- module org.junit.platform.engine
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:18cc52706f89dd14c049f7157a124c4dee4ee881f68157772404ed6f956920bd
+size 8632
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

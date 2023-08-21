@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.5.2
 Build-Jdk-Spec: 11
@@ -17,3 +18,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/structs-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7275d4d6292eb8dc5715cd9f4d8017734006539ad527bc54babf978dbd30933d
+size 619
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

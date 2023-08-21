@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -21,3 +22,8 @@ Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/apache-httpcomponents-client
  -5-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cdb982b7e6ce75b31f3ce193ffd085579412ad07a613637e9e7c93f8f70b4aa
+size 859
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

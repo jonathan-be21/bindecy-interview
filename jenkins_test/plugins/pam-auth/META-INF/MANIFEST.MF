@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Hudson-Version: 2.303.3
 Implementation-Title: PAM Authentication plugin
@@ -17,3 +18,8 @@ Build-Jdk-Spec: 1.8
 Created-By: Maven Archiver 3.6.0
 Specification-Version: 1.10
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b39f107b6580654ce52ea1eb0d3fe49572278257414bc3cff725aa36770c59d
+size 631
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

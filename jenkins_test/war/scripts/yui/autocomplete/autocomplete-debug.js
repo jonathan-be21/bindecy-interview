@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -3065,3 +3066,8 @@ YAHOO.widget.AutoComplete._cloneObject = function(o) {
 
 
 YAHOO.register("autocomplete", YAHOO.widget.AutoComplete, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fb9fab78f765dbc48d2c49b7a41717b57d76fd4602302191f09b927c41cb1f0
+size 104151
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

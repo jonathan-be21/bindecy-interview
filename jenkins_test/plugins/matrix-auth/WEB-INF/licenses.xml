@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='matrix-auth' version='3.1.10'><l:dependency name='Matrix Authorization Strategy Plugin' groupId='org.jenkins-ci.plugins' artifactId='matrix-auth' version='3.1.10' url='https://github.com/jenkinsci/matrix-auth-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:82565903abf6d81ac853950be749f4a5be5d632c5b6ffd59dc5a1d7a77033bd3
+size 502
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

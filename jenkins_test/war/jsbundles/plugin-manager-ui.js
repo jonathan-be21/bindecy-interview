@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1041,3 +1042,8 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 /******/ })()
 ;
 //# sourceMappingURL=plugin-manager-ui.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b63d8a0eb45392d0ddda4b105ddb10f14188d88f8553cd8a6199b163e0dc381f
+size 40651
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

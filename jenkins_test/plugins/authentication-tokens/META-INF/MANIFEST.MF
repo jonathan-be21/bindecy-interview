@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -19,3 +20,8 @@ Plugin-License-Name: The MIT license
 Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
 Plugin-ScmUrl: https://github.com/jenkinsci/authentication-tokens-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a080742c16fcf106361c6990aa0aad3046ad60f4494221f2e588769d1be038bc
+size 857
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

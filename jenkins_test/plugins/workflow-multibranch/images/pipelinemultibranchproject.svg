@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:export-ydpi="90.000000" inkscape:export-xdpi="90.000000" inkscape:export-filename="/Users/stephenc/Desktop/icon.png" sodipodi:docname="pipelinemultibranchproject.svg" inkscape:version="0.48.5 r10040" sodipodi:version="0.32" id="svg97" height="48.000000px" width="48.000000px">
@@ -531,3 +532,8 @@
   </g>
   <g inkscape:label="pattern" id="layer2" inkscape:groupmode="layer" />
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f3623b19d4a30dcf956cf2e4c26b25aa9a66a5ec24cc10280b9e1127c99394e
+size 81502
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

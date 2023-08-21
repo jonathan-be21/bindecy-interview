@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/antisamy-markup-formatter-pl
 Plugin-GitHash: 0e6ec0fcfcf660d111c97a8db4a37b4321d0a078
 Implementation-Build: 0e6ec0fcfcf660d111c97a8db4a37b4321d0a078
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2a4c039e767cdc4d5166fae6c0b3b082bb5790dd6d845a8d22d76a04c4a92ae
+size 1059
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

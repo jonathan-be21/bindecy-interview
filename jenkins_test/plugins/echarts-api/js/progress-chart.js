@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* global jQuery3 */
 jQuery3(document).ready(function () {
     /**
@@ -72,3 +73,8 @@ jQuery3(document).ready(function () {
 
     renderProgressChart();
 });
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3ce8d3969e9c6ca629bbc0c74aadbeb35ebb82239c586e9812b75474f4f2367
+size 2547
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.Queue_-State>
   <counter>184</counter>
   <items/>
 </hudson.model.Queue_-State>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ccf0083d1e085acd58b72883e66d5e35d585123e8d897c9eafcfca0396b66bc
+size 131
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

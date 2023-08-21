@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-GitHash: 28e3e36d18eb71e04e433296ef354dde4b2d8c58
 Plugin-Module: mina-sshd-api-core
 Implementation-Build: 28e3e36d18eb71e04e433296ef354dde4b2d8c58
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd3842f95715c50dbf9fd4e0ba6c4c514603d71a654277c5ab28667e68723410
+size 1215
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/caffeine-api-plugin/
 Plugin-GitHash: b8bb328e59d8765ee765017a9bed993c35cd430b
 Implementation-Build: b8bb328e59d8765ee765017a9bed993c35cd430b
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:441bf08aa6d3ca58abb271bce838271f4b8d769537210c1ba59c6a8df0786392
+size 1002
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

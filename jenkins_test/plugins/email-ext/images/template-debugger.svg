@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="svg5816" viewBox="0 0 48 48" sodipodi:version="0.32" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46" sodipodi:docname="internet-mail.svg" sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/apps">
@@ -65,3 +66,8 @@
         <path id="path27492" sodipodi:nodetypes="cccc" style="fill-rule:evenodd;color:#000000;fill:#b1b1b1" d="m41.813 17.848l-9.952 12.631-1.068-0.855 11.02-11.776z" />
     </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e38edbbe4331c214aba6f7460098f70acd7af70594d5e9e232867db06460d7c
+size 8718
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

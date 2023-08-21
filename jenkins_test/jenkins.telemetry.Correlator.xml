@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <jenkins.telemetry.Correlator>
   <correlationId>084fef89-6825-42ef-aaff-6537411963ab</correlationId>
 </jenkins.telemetry.Correlator>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4185d3875bca13549c08bd30fa199b83d01fe10e70801e935793071a9280603f
+size 171
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

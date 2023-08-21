@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 904 3
 1243
 3056 9
@@ -10,3 +11,8 @@
 8675
 8978 21
 9006
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a678b88b2c9a21d0e4693e4c62ba8a417b54b12d3ff1e713fca12c07bbf990b3
+size 75
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

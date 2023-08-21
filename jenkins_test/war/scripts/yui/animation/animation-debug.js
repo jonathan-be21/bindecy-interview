@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1427,3 +1428,8 @@ YAHOO.util.Easing = {
     Y.Scroll = Scroll;
 })();
 YAHOO.register("animation", YAHOO.util.Anim, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cd6f5441bfe14e10cb1a245b6d7b13f5632c63ecc06f05b1862bf4ad0c78f95
+size 49385
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

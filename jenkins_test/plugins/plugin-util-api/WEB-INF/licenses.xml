@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='io.jenkins.plugins' artifactId='plugin-util-api' version='3.3.0'><l:dependency name='Plugin Utilities API Plugin' groupId='io.jenkins.plugins' artifactId='plugin-util-api' version='3.3.0' url='https://github.com/jenkinsci/plugin-util-api-plugin'><l:description>Provides several utility classes that can be used to accelerate plugin development.</l:description><l:license name='MIT license' url=''/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:15d52d871e3c593917897ba839e992bede38f6ba005b90a274bc738cec354e92
+size 513
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

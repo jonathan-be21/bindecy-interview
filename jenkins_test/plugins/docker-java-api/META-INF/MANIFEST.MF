@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -28,3 +29,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/docker-java-api-plugin
 Plugin-GitHash: 20b53427e041edf37fdadd1909eb90871bd43caf
 Implementation-Build: 20b53427e041edf37fdadd1909eb90871bd43caf
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee07e49e7e33d5cd28b4cac0bf086ae75bcaf85f7b295dd5f95f5fe84d95c6aa
+size 1190
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

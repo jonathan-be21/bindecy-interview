@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 [filesystem "Eclipse Adoptium|11.0.20|/dev/mapper/ubuntu--vg-ubuntu--lv"]
 	timestampResolution = 6000 nanoseconds
 	minRacyThreshold = 5152 microseconds
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fb00b9de1c7a1e890fedae9a79b936c3fc8ebfcfcc691599adfae77e5ac1686
+size 152
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

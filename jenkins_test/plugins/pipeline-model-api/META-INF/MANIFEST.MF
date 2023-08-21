@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-GitHash: 077ad1928a4012780319d9cfc1a40fb0cb510290
 Plugin-Module: pipeline-model-api
 Implementation-Build: 077ad1928a4012780319d9cfc1a40fb0cb510290
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:fed18268acfbf615f9410b31c4fb39dec11b1cdcce9a21759bd016b677b6a8f8
+size 1179
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

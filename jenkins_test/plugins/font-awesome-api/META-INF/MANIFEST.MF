@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 17
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/font-awesome-api-plugin
 Plugin-GitHash: 0d8f169bb83effa3f265491e873c87f2367abe88
 Implementation-Build: 0d8f169bb83effa3f265491e873c87f2367abe88
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a892fb628883e6e75d1c71830bddcd9dde5a0eb3d265c708f0d7a91c0fa4c0f
+size 1068
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Signature-Version: 1.0
 Created-By: 11.0.20 (Eclipse Adoptium)
 SHA-256-Digest-Manifest: sx734lemfa4JQUp4Z91BflcLHB7+LVEhkRf14eHy+zM=
@@ -3514,3 +3515,8 @@ SHA-256-Digest: O7R8NK1nF9cqmJpe16hEdJkSP6kDuIl6MWoY15xyQOw=
 Name: WEB-INF/classes/images/symbols/list.svg
 SHA-256-Digest: cGeqzT3sQxPoU6NyYuf47Z7ADkQAYp7kl4XV80Lm7WQ=
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6ee07b10e76e32e5d2a0e77821e97ab3bf588229638f55df286f52744222d49
+size 128105
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

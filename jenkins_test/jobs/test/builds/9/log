@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Started by user [8mha:////4GQCzjRwjZOb63HArq7n3oCLlNDs7X3lP4HJoG1nGr3QAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
 org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
 WorkflowScript: 10: Expected a stage @ line 10, column 17.
@@ -34,3 +35,8 @@ WorkflowScript: 9: No stages specified @ line 9, column 13.
 	at hudson.model.ResourceController.execute(ResourceController.java:101)
 	at hudson.model.Executor.run(Executor.java:442)
 Finished: FAILURE
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:05e8f8a55d425703d4a2dd41e5e6a55ea3f7768496c9b45ec33d01243f749d6e
+size 2152
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

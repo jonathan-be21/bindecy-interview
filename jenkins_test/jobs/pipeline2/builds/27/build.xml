@@ -1,0 +1,314 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1316.vd2290d3341a_f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@671.v07c339c842e8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <stagesUUID>ef2e6335-469e-420e-aec5-308fb28c315d</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2144.v077a_d1928a_40">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>git</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">git branch: &apos;wip&apos;, url: &apos;https://github.com/jonathan-be21/bindecy-interview.git&apos;</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Generate Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">copyArtifacts(projectName: &apos;test&apos;,selector: lastCompleted(), target: &quot;./&quot;)
+                    def files = sh(script: &quot;ls ${savedNumbersDir}&quot;, returnStdout: true).trim().split(&quot;\n&quot;)
+                    dir(savedNumbersDir) {
+                        for (file in files) {
+                            def currentMaxNumber = readFile(file)
+                            maxNumbers.add(currentMaxNumber.trim())
+                        }
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Prepare Terraform Files</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">dir (terraformDir) {
+                        localsText = &quot;locals {\n ports_in = ${maxNumbers}\n }&quot;
+                        sh &quot;echo \&quot;${localsText}\&quot; &gt; ${terraformLocalsFile}&quot;
+                        sh &quot;cat ${terraformLocalsFile}&quot;
+                        
+                        def shellScript = &quot;#!/bin/bash -xe\n&quot;
+                        sh &quot;echo \&quot;${shellScript}\&quot; &gt; ${portsListFile}&quot;
+
+                        for (currentPort in maxNumbers) {
+                            currentPort = currentPort.trim()
+                            echoPort = &quot;echo -e \&quot;Port ${currentPort}\&quot; &gt;&gt; ${sshdConfigFile}\n&quot;
+                            sh &quot;echo \&quot;${echoPort}\&quot; &gt;&gt; ${portsListFile}&quot;
+                        }
+                        sh &quot;cat ${portsListFile}&quot;
+                        shellScript = &quot;sshd -t &amp;&amp; systemctl restart ssh.service&quot;
+                        sh &quot;echo \&quot;${shellScript}\&quot; &gt;&gt; ${portsListFile}&quot;
+                        sh &quot;cat ${portsListFile}&quot;
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>ef2e6335-469e-420e-aec5-308fb28c315d</uuid>
+          </stages>
+          <postBuild>
+            <conditions>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>always</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>cleanWs</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map"/>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+            </conditions>
+          </postBuild>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/wip</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.4.0">
+              <sha1>e9be273f41c0db67aac2bc8c94bd96d83d15fee1</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/wip</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>27</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/jonathan-be21/bindecy-interview.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@415.v434365564324">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/jonathan-be21/bindecy-interview.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@714.v28a_34f8c563f"/>
+  </actions>
+  <queueId>219</queueId>
+  <timestamp>1692640204263</timestamp>
+  <startTime>1692640204268</startTime>
+  <result>SUCCESS</result>
+  <duration>17045</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>def savedNumbersDir = &apos;saved-numbers&apos;
+def terraformDir = &apos;terraform&apos;
+def terraformLocalsFile = &apos;locals.tf&apos;
+def portsListFile = &apos;ports-list&apos;
+def sshdConfigFile = &apos;/etc/ssh/sshd_config&apos;
+def maxNumbers = []
+pipeline {
+    agent any
+    stages {
+        stage(&apos;git&apos;) {
+            steps {
+                script {
+                    git branch: &apos;wip&apos;, url: &apos;https://github.com/jonathan-be21/bindecy-interview.git&apos;
+                }
+            }
+        }
+        stage(&apos;Generate Maximal Number&apos;) {
+            steps {
+                script {
+                    copyArtifacts(projectName: &apos;test&apos;,selector: lastCompleted(), target: &quot;./&quot;)
+                    def files = sh(script: &quot;ls ${savedNumbersDir}&quot;, returnStdout: true).trim().split(&quot;\n&quot;)
+                    dir(savedNumbersDir) {
+                        for (file in files) {
+                            def currentMaxNumber = readFile(file)
+                            maxNumbers.add(currentMaxNumber.trim())
+                        }
+                    }
+                }
+            }
+        }
+        stage(&apos;Prepare Terraform Files&apos;) {
+            steps {
+                script {
+                    dir (terraformDir) {
+                        localsText = &quot;locals {\n ports_in = ${maxNumbers}\n }&quot;
+                        sh &quot;echo \&quot;${localsText}\&quot; &gt; ${terraformLocalsFile}&quot;
+                        sh &quot;cat ${terraformLocalsFile}&quot;
+                        
+                        def shellScript = &quot;#!/bin/bash -xe\n&quot;
+                        sh &quot;echo \&quot;${shellScript}\&quot; &gt; ${portsListFile}&quot;
+
+                        for (currentPort in maxNumbers) {
+                            currentPort = currentPort.trim()
+                            echoPort = &quot;echo -e \&quot;Port ${currentPort}\&quot; &gt;&gt; ${sshdConfigFile}\n&quot;
+                            sh &quot;echo \&quot;${echoPort}\&quot; &gt;&gt; ${portsListFile}&quot;
+                        }
+                        sh &quot;cat ${portsListFile}&quot;
+                        shellScript = &quot;sshd -t &amp;&amp; systemctl restart ssh.service&quot;
+                        sh &quot;echo \&quot;${shellScript}\&quot; &gt;&gt; ${portsListFile}&quot;
+                        sh &quot;cat ${portsListFile}&quot;
+                    }
+                }
+            }
+        }
+    }
+    post { 
+        always { 
+            cleanWs()
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>1521437221</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>603947926</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>4072787974</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>62629643</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1488516532</long>
+      </entry>
+    </timings>
+    <sandbox>false</sandbox>
+    <iota>59</iota>
+    <head>1:59</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/jonathan-be21/bindecy-interview.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/wip</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>wip</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/pipeline2</workspace>
+      <changelogFile>/var/jenkins_home/jobs/pipeline2/builds/27/changelog14498004389934273844.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

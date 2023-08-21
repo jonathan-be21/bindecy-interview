@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Log Out</title><path d="M304 336v40a40 40 0 01-40 40H104a40 40 0 01-40-40V136a40 40 0 0140-40h152c22.09 0 48 17.91 48 40v40M368 336l80-80-80-80M176 256h256" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:df22540de2f2058ea58f5c61918e08ae0c9f98ceaca1b543c14d54011548575a
+size 348
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

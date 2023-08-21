@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 lastCompletedBuild 13
 lastFailedBuild 11
 lastStableBuild 13
 lastSuccessfulBuild 13
 lastUnstableBuild -1
 lastUnsuccessfulBuild 11
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd20f1b14a0d28c18916acf0cc18f92ea694d25e4ae5e5b70bc680bb4351bfbd
+size 129
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

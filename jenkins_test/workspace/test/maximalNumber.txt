@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 45905
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:faf787a9d7475bfe31ac34fb840cac24b370611cb27065f497c7eb8ac34afc3f
+size 6
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

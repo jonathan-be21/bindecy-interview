@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 See comment in CopyArtifact.java about this issue.
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:efca465a1793d65f5953d267dab48b8cbc4eeec80f1b331b1bd3c25b707b5bbe
+size 51
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

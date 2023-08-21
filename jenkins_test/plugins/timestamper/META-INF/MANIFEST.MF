@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/timestamper-plugin
 Plugin-GitHash: 59a52c3239414a398aabb240d4b204e104324e36
 Implementation-Build: 59a52c3239414a398aabb240d4b204e104324e36
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5bf7abd883f9bc7d37a9f33f581f8e79028ab6a9b8e850e3e68cddddf684065
+size 1149
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

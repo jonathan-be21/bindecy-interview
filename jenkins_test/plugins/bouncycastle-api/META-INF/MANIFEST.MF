@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/bouncycastle-api-plugin
 Plugin-GitHash: 47afce2b158797ac394d4ae763e23dc7194b6917
 Implementation-Build: 47afce2b158797ac394d4ae763e23dc7194b6917
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:129584284664cca9a5e5e62de2968adf4f7341f6b798af8b501d6f93453c2dcc
+size 1084
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.git.GitTool_-DescriptorImpl plugin="git-client@4.4.0">
   <installations class="hudson.plugins.git.GitTool-array">
@@ -8,3 +9,8 @@
     </hudson.plugins.git.GitTool>
   </installations>
 </hudson.plugins.git.GitTool_-DescriptorImpl>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:65240ebb93eca52ac0bc34a64b441f96da9b9176dc634ca961ac4de64693a2a8
+size 370
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Root CA for the Jenkins community. Used to generate official update center.
 This is the v2 key generated in preparation for the expiration of the v1 key.
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:5989b3a3c396f1d4748e639eeb71516b5102a4803f6aeefa108056836af83c38
+size 154
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

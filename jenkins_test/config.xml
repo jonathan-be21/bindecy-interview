@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors>
@@ -94,3 +95,8 @@
   <globalNodeProperties/>
   <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
 </hudson>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1f5ad2df3bed03235cfc578c68fe4054332753054812adac5732ee4b6bdad09
+size 4074
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.794362mm" height="13.288195mm" viewBox="0 0 12.794362 13.288195" version="1.1" id="svg5" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" sodipodi:docname="add-watch.svg" xmlns="http://www.w3.org/2000/svg">
@@ -140,3 +141,8 @@
         </g>
     </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:958135297877d7d03ed32243ead01664b284fdd91d7d2586c450e0618793f499
+size 19283
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

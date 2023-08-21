@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/matrix-project-plugin
 Plugin-GitHash: 8013b40c7edcc832ce6cf1fd4a74d3bb310f20d9
 Implementation-Build: 8013b40c7edcc832ce6cf1fd4a74d3bb310f20d9
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:88729d80fe98a2746d6aef0eb7e107892d234857c816d156c5ab3f7c04944cdf
+size 1046
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

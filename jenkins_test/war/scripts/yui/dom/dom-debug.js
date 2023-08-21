@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1883,3 +1884,8 @@ Y.Dom.Color = {
 };
 }());
 YAHOO.register("dom", YAHOO.util.Dom, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4634eeac2bb6b6eed17c5238c2872fe028577d1f9027d53e08f407255b61b5cc
+size 72934
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

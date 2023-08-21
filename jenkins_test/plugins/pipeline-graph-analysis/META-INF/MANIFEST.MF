@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.5.2
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-graph-analysis-plug
  in
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:afa953560951bd6c8b98cb2487ef80f4548e30749138c4a035563353c1bc37a3
+size 1059
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

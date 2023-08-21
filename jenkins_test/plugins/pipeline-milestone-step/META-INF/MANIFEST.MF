@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.5.2
 Build-Jdk-Spec: 11
@@ -21,3 +22,8 @@ Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-milestone-step-plug
  in
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe2030a939d9bdd01d6f1ca676969c638b4989c1e5ff23f6efbd014dfaec9e7a
+size 822
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

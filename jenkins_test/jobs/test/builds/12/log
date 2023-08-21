@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Started by user [8mha:////4GQCzjRwjZOb63HArq7n3oCLlNDs7X3lP4HJoG1nGr3QAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
 org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
 WorkflowScript: 24: Expected a step @ line 24, column 17.
@@ -22,3 +23,8 @@ WorkflowScript: 24: Expected a step @ line 24, column 17.
 	at hudson.model.ResourceController.execute(ResourceController.java:101)
 	at hudson.model.Executor.run(Executor.java:442)
 Finished: FAILURE
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1aad32f3638f10413c812b060c80e4e27c4e33fd47845b2f4f5d5ebae0ca4c58
+size 1799
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

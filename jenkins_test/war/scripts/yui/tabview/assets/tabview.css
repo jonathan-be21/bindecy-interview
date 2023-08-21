@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -75,3 +76,8 @@ version: 2.9.0
 .yui-navset-left .yui-nav, .yui-navset-right .yui-nav { position:absolute; z-index:1; }
 .yui-navset-left .yui-nav { left:0; }
 .yui-navset-right .yui-nav { right:0; }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:95f6033ed315c201c133f29beb3314f81cc82d76760ac32c218ca6016b5ecabc
+size 2038
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

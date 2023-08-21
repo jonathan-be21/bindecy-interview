@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/ionicons-api-plugin
 Plugin-GitHash: 1b1c8c49374e1efa84e7ca5680593a148be51963
 Implementation-Build: 1b1c8c49374e1efa84e7ca5680593a148be51963
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:fca8cc58ddec2007e777f83281292ed76015e50816bdd2f17d76ac2f5bf711ea
+size 969
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

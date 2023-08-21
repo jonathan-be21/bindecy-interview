@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -20,3 +21,8 @@ Plugin-License-Name: The MIT license
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/trilead-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:35ecbcdabca13330e7db8e6e92b51fe9f82b98fefbd459f157623c6ae858cd9a
+size 812
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

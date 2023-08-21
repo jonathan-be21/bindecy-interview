@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 17
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/bootstrap5-api-plugin
 Plugin-GitHash: 3dc73c8e93bd1c0ce441fbe3f9e2ee5201068c4a
 Implementation-Build: 3dc73c8e93bd1c0ce441fbe3f9e2ee5201068c4a
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb4f3a9a103abebc5e29f8a691d3af0edd966832b3e275ee2801040c4cff81d6
+size 1058
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

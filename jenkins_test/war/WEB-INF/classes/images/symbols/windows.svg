@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Microsoft</title><path d="M31.87 30.58H244.7v212.81H31.87zM266.89 30.58H479.7v212.81H266.89zM31.87 265.61H244.7v212.8H31.87zM266.89 265.61H479.7v212.8H266.89z" fill="currentColor"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:092428bd3c0146b4eca848414a70d88c6c74cff52ec31b0956c16e2c0854e801
+size 278
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

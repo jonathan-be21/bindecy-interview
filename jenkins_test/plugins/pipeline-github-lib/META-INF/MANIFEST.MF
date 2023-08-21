@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -18,3 +19,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-github-lib-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:72470effa209c3fac13d3fb9995f50965962e1a09a2228553fb9e93ce3f9f3da
+size 780
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

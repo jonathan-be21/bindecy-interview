@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/matrix-auth-plugin
 Plugin-GitHash: ea0f9d799319187779d9deaf951c2b416942db97
 Implementation-Build: ea0f9d799319187779d9deaf951c2b416942db97
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:39654bdc0798ee59b93cb87ad886134c1e4c53aab284c138b9c6e85c3f2621ce
+size 1147
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

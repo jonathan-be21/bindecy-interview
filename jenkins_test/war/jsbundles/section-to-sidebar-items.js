@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 var __webpack_exports__ = {};
@@ -87,3 +88,8 @@ function onScroll() {
 /******/ })()
 ;
 //# sourceMappingURL=section-to-sidebar-items.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c8d4964cb66a55ddb909bb2990c7ec5c6d01ed167d28110495e3300760f2d0c
+size 4926
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

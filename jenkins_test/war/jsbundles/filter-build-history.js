@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -659,3 +660,8 @@ document.addEventListener("DOMContentLoaded", function () {
 /******/ })()
 ;
 //# sourceMappingURL=filter-build-history.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:66d8df57264e217516e8db06d86d9240dba5112eb0bc937ff002610f4905c6b3
+size 26191
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

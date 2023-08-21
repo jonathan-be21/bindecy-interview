@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/cloud-stats-plugin
 Plugin-GitHash: 45b647b90608a1df81870179afb665a8f746a54d
 Implementation-Build: 45b647b90608a1df81870179afb665a8f746a54d
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd2cfdda22e8e58aba035fc68cbedb7ec3cca6eb95a66f7da19662c2b33d701b
+size 1049
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

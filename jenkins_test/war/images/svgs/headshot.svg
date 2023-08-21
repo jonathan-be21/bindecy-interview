@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -289,3 +290,8 @@
        id="path136"
        style="fill:#1d1919;fill-opacity:1;fill-rule:evenodd;stroke:none"
        d="m 102.80508,-4.3554243 c 0,-0.9492763 -0.77004,-1.7190334 -1.72016,-1.7190334 -0.94918,0 -1.71922,0.7697571 -1.71922,1.7190334 0,0.9492764 0.77004,1.720159 1.71922,1.720159 0.95012,0 1.72016,-0.7708826 1.72016,-1.720159" /></g></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:139d5952dc8698dfceea11849a20fb86d409006ee0f2e36650881859703cbd88
+size 37574
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

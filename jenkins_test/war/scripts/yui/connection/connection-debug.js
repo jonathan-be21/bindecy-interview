@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1595,3 +1596,8 @@ YAHOO.util.Connect =
 })();
 
 YAHOO.register("connection", YAHOO.util.Connect, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a66f3f3aa03f3fbd1732d5b2a5f43bcc4d8d3094b3252f68e2a8128213b51cc
+size 50046
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

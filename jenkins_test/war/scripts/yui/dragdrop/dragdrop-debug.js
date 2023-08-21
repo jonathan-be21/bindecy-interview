@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -3714,3 +3715,8 @@ YAHOO.extend(YAHOO.util.DDTarget, YAHOO.util.DragDrop, {
     }
 });
 YAHOO.register("dragdrop", YAHOO.util.DragDropMgr, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa1924df7e2862ffbbd6ce441eeaa37867e47eb63463525413472bf6344c74d3
+size 130601
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

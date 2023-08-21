@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -4110,3 +4111,8 @@ YAHOO.widget.TVFadeOut.prototype = {
     }
 };
 YAHOO.register("treeview", YAHOO.widget.TreeView, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:588310c8858ecf4bca6757e2b6c87f1fb2f8647f8756b3c2ebc233223333e6c6
+size 136793
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

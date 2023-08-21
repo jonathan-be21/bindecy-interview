@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -29,3 +30,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/ssh-slaves-plugin
 Plugin-GitHash: d17b43357ce457053beedfbbb2c39a9cd596c5e3
 Implementation-Build: d17b43357ce457053beedfbbb2c39a9cd596c5e3
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:accd9c849a06dfb7f97ed306757f86526be17b50f67f97d87d777f3f1facb267
+size 1329
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

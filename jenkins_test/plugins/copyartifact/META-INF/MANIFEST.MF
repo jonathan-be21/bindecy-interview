@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -29,3 +30,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/copyartifact-plugin
 Plugin-GitHash: 28a34f8c563f9608847536da6e04ad046f6c5ea3
 Implementation-Build: 28a34f8c563f9608847536da6e04ad046f6c5ea3
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d74f3d2cc00624159e090eee2d3a37b3bfaacf509685a3dd361a43cd321527cb
+size 1297
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

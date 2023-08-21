@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
  Sourced from: https://github.com/jenkins-contrib-themes/jenkins-core-theme/tree/master/images
  License: MIT
@@ -43,3 +44,8 @@
         </g>
     </symbol>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b0c32e73c42d5fe35047658eec768a70bf920d7f45d27c7ce2306aba7fd7a4e
+size 10013
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

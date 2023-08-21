@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -28,3 +29,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/junit-plugin
 Plugin-GitHash: 4297208aabce82ea17ad6e9e07a82fc4fe52d375
 Implementation-Build: 4297208aabce82ea17ad6e9e07a82fc4fe52d375
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:706cbb62518968ab7b0118bd23cc7e675d821b6007f6b86abc9c5a4ff359ef2c
+size 1196
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Remove</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M400 256H112"/></svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9765e2bff40214ec5b1251046c4e0d027c07e4666d59e66f6190b6bff798afa3
+size 228
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

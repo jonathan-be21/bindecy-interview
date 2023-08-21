@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -26,3 +27,8 @@ Plugin-GitHash: 077ad1928a4012780319d9cfc1a40fb0cb510290
 Plugin-Module: pipeline-stage-tags-metadata
 Implementation-Build: 077ad1928a4012780319d9cfc1a40fb0cb510290
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:48d510ca4277d4983b57ead1ef51293fdb026d0f7ef0d3fa88a5115fbd1c3623
+size 1162
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1010,3 +1011,8 @@ version: 2.9.0
 })();
 
 YAHOO.register("tabview", YAHOO.widget.TabView, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e0ae2e217d0402a20f9eec18ddc2cce81fd2ef7c47287542a30ae6f7bef7d47
+size 34285
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

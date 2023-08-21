@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -28,3 +29,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/github-branch-source-plugin
 Plugin-GitHash: 3f1889ac475b706b31c186e31ca8266a0a847504
 Implementation-Build: 3f1889ac475b706b31c186e31ca8266a0a847504
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c2e1dddebd48263c843f7e965ea97ccccb2aae0c29468f44297cf082f9d04f3
+size 1295
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

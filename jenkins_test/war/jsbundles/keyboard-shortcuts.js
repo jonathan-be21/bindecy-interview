@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -208,3 +209,8 @@ function translateModifierKeysForUsersPlatform(keyboardShortcut) {
 /******/ })()
 ;
 //# sourceMappingURL=keyboard-shortcuts.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f3ec8a6b1b7fceba7109ae28f3a535d546d67ed58bfe7ad6ca84acc4d2e6a65
+size 8469
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

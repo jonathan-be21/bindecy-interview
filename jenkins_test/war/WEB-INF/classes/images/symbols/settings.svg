@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -6,3 +7,8 @@
         </g>
     </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:4353a195fbe833d185e19f55b417e65b57ce7ca89e044cb2292a942d8d63cb50
+size 3073
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

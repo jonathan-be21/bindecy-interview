@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
@@ -211,3 +212,8 @@
        transform="matrix(0.849895,0,0,0.835205,41.72981,8.548327)" />
   </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb32a6d59162d4912059a231fe968b56e3dce6c3b21f9c1c3485ef194813a35b
+size 13259
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

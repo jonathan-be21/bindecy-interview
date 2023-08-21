@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
@@ -36,3 +37,8 @@ THE SOFTWARE.
   <class-loader delegate="false"/>
   <parameter-encoding default-charset="UTF-8" />
 </sun-web-app>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ded615e4975d7e21b6b02a566adbc5ce7e3f6963e4b9c4177828c05593837950
+size 1681
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

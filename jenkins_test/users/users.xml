@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.UserIdMapper>
   <version>1</version>
@@ -8,3 +9,8 @@
     </entry>
   </idToDirectoryNameMap>
 </hudson.model.UserIdMapper>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ef54a04e621b0ec91f9da1e81824bfd6397268e59b325991efa9c559f694725
+size 301
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

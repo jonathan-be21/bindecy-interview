@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -30,3 +31,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-cps-plugin
 Plugin-GitHash: e4b5b857bad349ecede5a2f3453b98f635be8475
 Implementation-Build: e4b5b857bad349ecede5a2f3453b98f635be8475
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:142561edb68e2c1351ed47a2b72c6d3d5d4a6f20944a0a5f80bd9ca89213d491
+size 1390
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

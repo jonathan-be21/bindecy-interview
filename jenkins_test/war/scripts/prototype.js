@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*  Prototype JavaScript framework, version 1.7
  *  (c) 2005-2010 Sam Stephenson
  *
@@ -6131,3 +6132,8 @@ Object.extend(Element.ClassNames.prototype, Enumerable);
     }
   });
 })();
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:554dd1417223d9cc8fd9eac44764716748e8505d84650dd771f48decc5b29c4d
+size 164857
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

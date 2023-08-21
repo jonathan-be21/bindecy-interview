@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-job-plugin
 Plugin-GitHash: d2290d3341af6011b1f7833ab57d4db28b824e3a
 Implementation-Build: d2290d3341af6011b1f7833ab57d4db28b824e3a
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb057ddfb2026bfc2cd5d1979abf5c44c43b1225d3ae631f02da33aad4808d38
+size 1131
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

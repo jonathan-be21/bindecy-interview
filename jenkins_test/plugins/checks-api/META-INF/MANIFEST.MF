@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 17
@@ -21,3 +22,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/checks-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3abb89362151ea3d7c6613e1b59143b9199582f17d31f3be3ff5a7efeccfa2a0
+size 883
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

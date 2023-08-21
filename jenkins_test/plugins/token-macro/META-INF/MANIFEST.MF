@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -27,3 +28,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/token-macro-plugin
 Plugin-GitHash: f35bf26814ecfe50cd06bceb87000a66df47d765
 Implementation-Build: f35bf26814ecfe50cd06bceb87000a66df47d765
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:0af443851722c31388bb651666203fb38a067f2ffe429df05aff603295cbf64b
+size 1244
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

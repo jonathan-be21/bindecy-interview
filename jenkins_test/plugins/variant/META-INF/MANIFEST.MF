@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -17,3 +18,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: http://opensource.org/licenses/MIT
 Plugin-ScmUrl: http://github.com/jenkinsci/variant-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2cd4c3f5990cba3fc7ab90b9fad91d731c5ffc425c432bbdc94ed0a3870bfeb
+size 611
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

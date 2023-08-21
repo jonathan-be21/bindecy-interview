@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven WAR Plugin 3.4.0
 Build-Jdk-Spec: 11
@@ -3521,3 +3522,8 @@ SHA-256-Digest: TTHhiA5hMCCzVJIZiTPDBp3Gj6iGZoe3qSMKtex38Ro=
 Name: WEB-INF/classes/images/symbols/list.svg
 SHA-256-Digest: ZgGwEja0mQ5p65k+5XiytVIWbNgaNubdlr400lo1Vh4=
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b31ef7e257a67dae09414a7867dd417e570b1c1efe2d51219117f5e1e1f2fb33
+size 128324
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

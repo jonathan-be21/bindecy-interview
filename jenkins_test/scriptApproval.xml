@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <scriptApproval plugin="script-security@1264.vecf66020eb_7d">
   <approvedScriptHashes>
@@ -49,3 +50,8 @@
   <pendingSignatures/>
   <pendingClasspathEntries/>
 </scriptApproval>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e60dcb3a487eaee0589f08c05facffcef628a667f675ab21db7a53a15eade29
+size 6602
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

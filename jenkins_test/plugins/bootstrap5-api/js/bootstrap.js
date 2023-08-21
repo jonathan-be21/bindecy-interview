@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
   * Bootstrap v5.3.0 (https://getbootstrap.com/)
   * Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -4484,3 +4485,8 @@
 
 }));
 //# sourceMappingURL=bootstrap.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:d772518742933ff9acf9aff32cfa645da53449e90c44c6cf78d3b7f40f731a07
+size 145007
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1243,3 +1244,8 @@ var Y = YAHOO,
 	Util.StorageEngineSWF = StorageEngineSWF;
 }());
 YAHOO.register("storage", YAHOO.util.Storage, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:a993b6fd7ede4eca93b94d6f3b8e2cda51e4b60c6a96891bb976ab03141884d6
+size 35858
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- do_not_remove: published-with-gradle-metadata -->
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
@@ -95,3 +96,8 @@
     </plugins>
   </build>
 </project>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:36e6432428735b18b80531afcffe7ccc1a5e43f7ec09675722f4f88ec8ea7ad6
+size 3304
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

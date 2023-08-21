@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -26,3 +27,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/ssh-credentials-plugin
 Plugin-GitHash: e4497bccd8f41a7b1b4e71e8409229385a2e1651
 Implementation-Build: e4497bccd8f41a7b1b4e71e8409229385a2e1651
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4060f1b5a4c1dda79ebfb486117bfd1577910117c478d20c832492e51b3f51a
+size 1136
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

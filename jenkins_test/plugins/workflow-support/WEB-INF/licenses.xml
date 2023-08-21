@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-support' version='848.v5a_383b_d14921'><l:dependency name='Pipeline: Supporting APIs' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-support' version='848.v5a_383b_d14921' url='https://github.com/jenkinsci/workflow-support-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency><l:dependency name='JBoss Marshalling API' groupId='org.jboss.marshalling' artifactId='jboss-marshalling' version='2.1.0.Final' url='http://www.jboss.org/jboss-marshalling-parent/jboss-marshalling'><l:description>JBoss Marshalling API</l:description><l:license name='Apache License 2.0' url='http://repository.jboss.org/licenses/apache-2.0.txt'/></l:dependency><l:dependency name='JBoss Marshalling River' groupId='org.jboss.marshalling' artifactId='jboss-marshalling-river' version='2.1.0.Final' url='http://www.jboss.org/jboss-marshalling-parent/jboss-marshalling-river'><l:description>JBoss Marshalling River Implementation</l:description><l:license name='Apache License 2.0' url='http://repository.jboss.org/licenses/apache-2.0.txt'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8702850e3b95f6a9f24323042fe84a5cf1ef61e793c6fef13e028e7b62d11ac3
+size 1311
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

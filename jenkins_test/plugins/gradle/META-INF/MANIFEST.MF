@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Plugin-Dependencies: maven-plugin:3.14;resolution:=optional,git:4.9.4;re
  solution:=optional,structs:318.va_f3ccb_729b_71,workflow-api:1153.vb_91
@@ -15,3 +16,8 @@ Compatible-Since-Version: 1.0
 Plugin-Version: 2.8.2
 Plugin-Developers: Stefan Wolf:wolfs:
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:f801ad4f1e42fecb6ec74e7cf00d144a99912679f3d13d1ab8ea054a9e11422a
+size 668
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

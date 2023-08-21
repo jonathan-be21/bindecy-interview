@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -480,3 +481,8 @@ YAHOO.util.Cookie = {
 };
 
 YAHOO.register("cookie", YAHOO.util.Cookie, {version: "2.9.0", build: "2800"});
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:76e2cd880d55fbc5829fee2fd8120f6616814ae87d0feebd8e5fd1d7a5724bfe
+size 17774
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

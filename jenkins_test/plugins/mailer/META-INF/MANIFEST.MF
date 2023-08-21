@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -26,3 +27,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/mailer-plugin
 Plugin-GitHash: edf8358e006b99fa51e89c41c2010849d3a94fe4
 Implementation-Build: edf8358e006b99fa51e89c41c2010849d3a94fe4
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:97fefa11dc4e5b061dd329b34b995f984b4b987e7428643ce2234bd3ea3a320f
+size 1069
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

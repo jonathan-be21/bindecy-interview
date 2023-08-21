@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 The MIT License
@@ -266,3 +267,8 @@ THE SOFTWARE.
     <!-- Tracking mode is managed by WebAppMain.FORCE_SESSION_TRACKING_BY_COOKIE_PROP -->
   </session-config>
 </web-app>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:7695295cf71ad2043e388d4fa42b3e0dd81bcff84a60017588c41af1662fcc51
+size 9505
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

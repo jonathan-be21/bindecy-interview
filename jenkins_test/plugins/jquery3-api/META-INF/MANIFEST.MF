@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 17
@@ -25,3 +26,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/jquery3-api-plugin
 Plugin-GitHash: 5b49477eac4b57784b16a8fd3b7930588636eb77
 Implementation-Build: 5b49477eac4b57784b16a8fd3b7930588636eb77
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:aea3cc649c50c05d42e01493b1affd3db15ed716311bb3b5d33524e68fc80b26
+size 1006
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  ~ Copyright 2015 CloudBees, Inc.
@@ -181,3 +182,8 @@
     </plugins>
   </build>
 </project>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:f10bc3eb22736e179db578a12fc36d9f855c65566e12c1ee518ee8b8d00c49e9
+size 6246
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

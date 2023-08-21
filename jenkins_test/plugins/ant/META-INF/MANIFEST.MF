@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -24,3 +25,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/ant-plugin
 Plugin-GitHash: 94e7d9fffab9491c00ef6fb8cb92537391e52d06
 Implementation-Build: 94e7d9fffab9491c00ef6fb8cb92537391e52d06
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:87d5a905d5d43ce0d244313fd2f7f88c43c371dfc0c29ee08a616e2c1611f711
+size 924
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

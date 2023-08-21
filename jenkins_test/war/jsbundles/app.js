@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -1434,3 +1435,8 @@ dialogs.init();
 /******/ })()
 ;
 //# sourceMappingURL=app.js.map
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:837440f0048a913608aaf2f222e136c208f6c26f10b18e1e6fc9fed92caa8b01
+size 49078
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

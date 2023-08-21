@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -52,3 +53,8 @@ version: 2.9.0
 .yui-navset-right .yui-content {
     margin:0 -1px 0 0; /* for active tab overlap */
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:485aa377b0faaaa2d2b35cb3b0f556e0f2527305847b131a4a66b0f06727aaea
+size 1597
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

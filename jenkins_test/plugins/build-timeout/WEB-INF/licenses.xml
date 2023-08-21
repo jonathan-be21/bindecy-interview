@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='build-timeout' version='1.31'><l:dependency name='Build Timeout' groupId='org.jenkins-ci.plugins' artifactId='build-timeout' version='1.31' url='https://github.com/jenkinsci/build-timeout-plugin'><l:description>To terminate a build if it is taking too long</l:description><l:license name='The MIT License (MIT)' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ed80f8f8d5f1885f8e63df9cbc48580d4c3ce55023ba7e438545db7fa24284f
+size 506
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

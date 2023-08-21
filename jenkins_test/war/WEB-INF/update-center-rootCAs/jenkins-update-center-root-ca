@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -----BEGIN CERTIFICATE-----
 MIIEjDCCA3SgAwIBAgIJANhML3taKQRDMA0GCSqGSIb3DQEBBQUAMIGKMQswCQYD
 VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTERMA8GA1UEBxMIU2FuIEpvc2Ux
@@ -25,3 +26,8 @@ Ezwa25fqPp4at2siOj8yhIygSEXOe5q6ivdZJf/AtkAZhSHuXhXACYFW15zxNyxv
 FNWPgAj1UFEXFfW7+2UmMwyJg4n8qPauCF5BhmqWKBwkFBKcM4rllmSohbJO8gar
 vj3KU0++qx9tZVvTYHPFIQ==
 -----END CERTIFICATE-----
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:5af1b5a96a62e16c6ca3cf6655e141d04995c716c871134ce01d3824dce71487
+size 1639
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

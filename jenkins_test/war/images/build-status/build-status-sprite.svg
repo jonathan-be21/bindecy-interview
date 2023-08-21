@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg width="0" height="0" class="hidden">
 	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" stroke="currentColor" id="build-status-static">
 		<g fill="none" fill-rule="evenodd">
@@ -51,3 +52,8 @@
 		</g>
 	</symbol>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b29d8f4aa3e2b4563be5aba2266cbc3b174c40aea0bd3c1e963dec730e07e701
+size 3647
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

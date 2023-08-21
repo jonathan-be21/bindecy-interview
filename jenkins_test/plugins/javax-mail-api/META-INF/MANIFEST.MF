@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -20,3 +21,8 @@ Plugin-License-Name: CDDL-1.1
 Plugin-License-Url: https://spdx.org/licenses/CDDL-1.1.html
 Plugin-ScmUrl: https://github.com/jenkinsci/javax-mail-api-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c39d5774a3ea52c42d9229a3a2df84fd1f9051bfaf67bf23b9af79236e69b324
+size 718
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

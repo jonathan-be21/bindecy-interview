@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -33,3 +34,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/email-ext-plugin
 Plugin-GitHash: 89589b4e641b66473a21e7b8e4f4f39ce1394187
 Implementation-Build: 89589b4e641b66473a21e7b8e4f4f39ce1394187
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:20105028a1a14b975b2dccfaf7b319248ea4892c4d30b99e801d53110c5dda9a
+size 1548
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.5.2
 Build-Jdk-Spec: 11
@@ -25,3 +26,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/workflow-aggregator-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ad7c9b2e4baaf386da55a1eb558f8e71e301d08748490080b459315c0b20aba
+size 1132
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

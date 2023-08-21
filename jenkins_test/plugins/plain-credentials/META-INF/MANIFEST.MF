@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -18,3 +19,8 @@ Plugin-License-Name: MIT
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmUrl: https://github.com/jenkinsci/plain-credentials-plugin
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5111731cb08d88ec48aa25700b9bb0f2a2d0f67d4def2f51323b30c64ae8f91
+size 734
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

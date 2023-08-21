@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The MIT License
 # 
 # Copyright (c) 2004-2009, Sun Microsystems, Inc., Kohsuke Kawaguchi
@@ -23,3 +24,8 @@
 
 find . -name README | xargs rm
 find . | grep \\.js | grep -v \\-debug | grep -v \\-min | xargs rm
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d13f7d025e6b405c86cb8ddb904235f2e7b5ea142b21a33e9e95586bb6c94f5
+size 1250
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

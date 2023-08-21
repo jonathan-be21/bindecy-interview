@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='display-url-api' version='2.3.8'><l:dependency name='Display URL API' groupId='org.jenkins-ci.plugins' artifactId='display-url-api' version='2.3.8' url='https://github.com/jenkinsci/display-url-api-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd69188acc8a1d76540b0aba8a7db08ef91d7695ee411aebaf36a941048d1da8
+size 499
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

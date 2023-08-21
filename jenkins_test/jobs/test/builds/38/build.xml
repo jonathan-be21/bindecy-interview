@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-build plugin="workflow-job@1316.vd2290d3341a_f">
   <actions>
@@ -191,3 +192,8 @@ pipeline {
   <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:728ffe6d908a092f95e4907bce125d9611a135f54c05b01e68b92b8ad6bc1199
+size 9075
+>>>>>>> 01a95f3 (jenkins pipelines A-B)

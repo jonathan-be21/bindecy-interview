@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 11
@@ -29,3 +30,8 @@ Plugin-ScmUrl: https://github.com/jenkinsci/workflow-durable-task-step-p
 Plugin-GitHash: 4fcd365b75be187858507b96aea6c52557e27a72
 Implementation-Build: 4fcd365b75be187858507b96aea6c52557e27a72
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e6581c369997f3fd9dd1b69bf8e35198d0c021fbc92b4e773b794d187ad5d37
+size 1352
+>>>>>>> 01a95f3 (jenkins pipelines A-B)
