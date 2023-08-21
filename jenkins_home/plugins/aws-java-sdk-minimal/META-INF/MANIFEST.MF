@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Amazon Web Services SDK :: Minimal
+Specification-Version: 1.12
+Implementation-Title: Amazon Web Services SDK :: Minimal
+Implementation-Version: 1.12.529-406.vdeff15e5817d
+Group-Id: org.jenkins-ci.plugins.aws-java-sdk
+Artifact-Id: aws-java-sdk-minimal
+Short-Name: aws-java-sdk-minimal
+Long-Name: Amazon Web Services SDK :: Minimal
+Url: https://github.com/jenkinsci/aws-java-sdk-plugin
+Plugin-Version: 1.12.529-406.vdeff15e5817d
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: jaxb:2.3.8-1,apache-httpcomponents-client-4-api:4.5
+ .14-150.v7a_b_9d17134a_5,jackson2-api:2.15.2-350.v0c2f3f8fc595
+Plugin-Developers: Vincent Latombe:vlatombe:vincent@latombe.net
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/aws-java-sdk-
+ plugin.git
+Plugin-ScmTag: deff15e5817d91fe5c7617f9ff5459325b76d99c
+Plugin-ScmUrl: https://github.com/jenkinsci/aws-java-sdk-plugin/
+Plugin-GitHash: deff15e5817d91fe5c7617f9ff5459325b76d99c
+Implementation-Build: deff15e5817d91fe5c7617f9ff5459325b76d99c
+
