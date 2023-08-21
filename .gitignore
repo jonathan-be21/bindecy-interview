@@ -1,5 +1,9 @@
+### jenkins
+jenkins_test/logs/tasks
+jenkins_test/logs/tasks/*
+
 ### terraform
-.terraform
+**/.terraform
 *.tfstate
 
 ### python
