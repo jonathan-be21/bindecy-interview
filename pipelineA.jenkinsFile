@@ -1,6 +1,7 @@
 // define values for running in parallel
 def minParallelExec = 10
 def randNumbers = []
+def savedNumbersDir = 'saved-numbers'
 
 pipeline {
     agent any
@@ -8,7 +9,7 @@ pipeline {
         stage('Generate Maximal Number') {
             steps {
                 script {
-                    for (int i = 0; i < minParallelExec; i++) {
+                    for (int i = 0; i < 3; i++) {
                         node("java-docker-slave") {
                             stage('test') {
                                 randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
@@ -22,12 +23,17 @@ pipeline {
         stage('Save Maximal Number') {
             steps {
                 script {
+                    println("randNumbers: ${randNumbers}")
                     def maximalNumber = randNumbers.max()
                     println("max number: ${maximalNumber}")
-                    sh "echo ${maximalNumber} > maximalNumber.txt"
-                    artifacts {
-                        archiveArtifacts "maximalNumber.txt"
+                    sh "mkdir -p ${savedNumbersDir}"
+                    try {
+                        copyArtifacts(projectName: 'test',selector: lastSuccessful(), target: savedNumbersDir)
+                    } catch (Exception e) {
+                        println("Error coping artifacts")
                     }
+                    sh "echo ${maximalNumber} > ${savedNumbersDir}/maximalNumber-${currentBuild.number}.txt"
+                    archiveArtifacts artifacts: "${savedNumbersDir}/*.txt", fingerprint: true, onlyIfSuccessful: true
                 }
             }
         }

@@ -1,4 +1,9 @@
 def savedNumbersDir = 'saved-numbers'
+def terraformDir = 'terraform'
+def terraformLocalsFile = 'locals.tf'
+def portsListFile = 'ports-list'
+def sshdConfigFile = '/etc/ssh/sshd_config'
+def maxNumbers = []
 pipeline {
     agent any
     stages {
@@ -13,20 +18,60 @@ pipeline {
             steps {
                 script {
                     copyArtifacts(projectName: 'test',selector: lastCompleted(), target: "./")
-                    sh "ls -l ${savedNumbersDir}"
-                    def maxNumbers = []
                     def files = sh(script: "ls ${savedNumbersDir}", returnStdout: true).trim().split("\n")
                     dir(savedNumbersDir) {
                         for (file in files) {
                             def currentMaxNumber = readFile(file)
-                            maxNumbers.add(currentMaxNumber)
+                            maxNumbers.add(currentMaxNumber.trim())
                         }
                     }
-                    println(maxNumbers)
-                    def selectedMaxNumbers = []
-                    selectedMaxNumbers = input(message: 'Choose one or more maximal numbers:',choices: maxNumbers)
                 }
             }
+        }
+        stage('Prepare Terraform Files') {
+            steps {
+                script {
+                    dir (terraformDir) {
+                        localsText = "locals {\n ports_in = ${maxNumbers}\n }"
+                        sh "echo \"${localsText}\" > ${terraformLocalsFile}"
+                        sh "cat ${terraformLocalsFile}"
+                        
+                        def shellScript = "#!/bin/bash -xe\n"
+                        sh "echo \"${shellScript}\" > ${portsListFile}"
+
+                        for (currentPort in maxNumbers) {
+                            currentPort = currentPort.trim()
+                            echoPort = "echo -e \"Port ${currentPort}\" >> ${sshdConfigFile}\n"
+                            sh "echo \"${echoPort}\" >> ${portsListFile}"
+                        }
+                        sh "cat ${portsListFile}"
+                        shellScript = "sshd -t && systemctl restart ssh.service"
+                        sh "echo \"${shellScript}\" >> ${portsListFile}"
+                        sh "cat ${portsListFile}"
+                    }
+                }
+            }
+        }
+        stage('Execute Terraform') {
+            steps {
+                script {
+                    dir (terraformDir) {
+                        try {
+                            withAWS(credentials: 'jenkins-test-user', region: 'us-east-1') {
+                                sh "terraform init"
+                            }
+                            
+                        } catch (error) {
+                            throw error
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post { 
+        always { 
+            cleanWs()
         }
     }
 }
