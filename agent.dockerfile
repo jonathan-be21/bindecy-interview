@@ -17,9 +17,9 @@ RUN   apt-get update && \
       rm -rf /var/lib/apt/lists/*
 
 # Copy authorized keys
-COPY ${HOME}/.ssh/authorized_keys /home/jenkins/.ssh/authorized_keys
+#COPY ${HOME}/.ssh/authorized_keys /home/jenkins/.ssh/authorized_keys
 
-RUN chown -R jenkins:jenkins /home/jenkins/.ssh/
+#RUN chown -R jenkins:jenkins /home/jenkins/.ssh/
 
 # Standard SSH port
 EXPOSE 22

@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.docker.DockerTransientNode plugin="docker-plugin@1.4">
+  <name>docker-agent-000co2urddh7p</name>
+  <description>Docker Agent [jenkins_agent:latest on tcp://172.17.0.1:4243 ID 8e2749f261825b8f3b0bde10ba2446d3ba8007aba91091c54a91e164f0f89d6b]</description>
+  <remoteFS>/</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="com.nirima.jenkins.plugins.docker.strategy.DockerOnceRetentionStrategy">
+    <idleMinutes>10</idleMinutes>
+  </retentionStrategy>
+  <launcher class="io.jenkins.docker.connector.DockerDelegatingComputerLauncher">
+    <launcher class="io.jenkins.docker.connector.DockerComputerSSHConnector$InjectKeySSHLauncher">
+      <host>172.17.0.1</host>
+      <port>32825</port>
+      <credentialsId>InstanceIdentity</credentialsId>
+      <launchTimeoutSeconds>60</launchTimeoutSeconds>
+      <maxNumRetries>10</maxNumRetries>
+      <retryWaitTime>15</retryWaitTime>
+      <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy" plugin="ssh-slaves@2.916.vd17b_43357ce4"/>
+      <user>jenkins</user>
+      <privateKey>-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAuCSENf41oB55KmbjD2jPOb3vG2tLw28MfxMboNd5Z1m5hW8h
+F9Abw90ozXAl5bXnwLtlvG7YTcTt0YYL2S6URNorGcTnCarmz2D54u74zYBXg5Vf
+s9oslzIjj7zYVQDGQXjlwYdPLv+PvtDib1oCBp4Fv/x7fbTzEGNhmBxBJWioAbaD
+dEGR8hLz3gBuXNj6ojQsAL+pfyV6pYkkASsru559ECpQyEqsSCU2dwF3m5S4FJI8
+MjqGMfRrrHA/L1J8nNnC6uqVorRrIlEINVU5TsU1lTONFEGwhPjo8lJ4yHnm/L2s
+Oct15Bb9wW4iZmq4p2KmOYAn14skrp5wpXq2wwIDAQABAoIBADrG9Sii3w0gDP76
+3mlRxCujM8plwkY8kRmSyNPbU5Yorq4n3cFTHTm0w0xoCsC7AqGjb4LpQsP4Iw0p
+I2kMlCkyFmXgUvrkAU6ansjQDLzTxZtrt6OZ9XfBelZsKgVf/OhzJatTfHP9AS4g
+UNbIPTNNh3pTpjtm4dsOTd2WzziYFvrZifHvRpjYVVemePARw255Iwnu/VIi39f0
+Ess61pzm0esSb7izPu8qofYOg9qcevJ6B0YXZhyCijGWNoJlF1h+shVeYvsfJmPj
+aIiYu2gqv+ZlOO0gzlU/uQp6wzI5IsCcwRhZfEMu98n4TYVe9dhggYjE1LpdEqOV
+cKKHHUkCgYEA8Y8YENIUWadF3NibN+v5ZxXfqRJHXyEXifzM8WmgJ7QPlPPAoAEb
+UUSzTXoAGjYHFQGd12A5omPwuh6+fvZvYlQY6KFQm/g5JoUGO2ou3Gt2FNqFnjbm
+BpIih9al9nXkiA63+66qLE4v15VktJmqHPcPOx5e/QxUBJzHtPXWQFcCgYEAwyaz
+x9OQsYeGfQv7Q42WKyuML8aP/eSB55GR+xDfM144XTCvtG96WjzIpjLoDvOdy9BV
+QhN6o9oMX6ttSsgx+kmojcbZLbgDyQmyLcCr0I9IhMhfNEKgzRUQxiPQd6OnbxYq
++BuvxoYplnpbWqoA84Oz9mdzlPQK7DkMH5ttyXUCgYBU0n+L4Ike1jsVCsaug2FH
+jonET9PaFr+yR6AboZCIgJT8I//e76SNDAe+S/nfOluQR8oKSBLU8C0m3gbchGKm
+b4tznLm2mxpOaWW/1VBxPBbxya4j2Xk6k3QmqPwMKGfAUxLOAQ5mkmoAVMhRFqiC
+lUq24rpON1cFa5xA8hZy7wKBgCQ5WeO8xL3/Xxp1D+XhMT/ALJxtqirBsM9QOR22
+awf49FNwBx1iF/8KC2C2UFb+J4s+l6TVQs2JWwSjKH1aHdTMuWnfwE55OtKlZxqR
+ChODlT14iBuGRpzqzRtKaJbcnObE4aL+WKlsG+ofujdhGR4ak1wopc6/YgupJzPy
+wPVFAoGAXn8exEFbkYEvKzfbRdIjw0IBt4Aba/H3nK+T9UwXUYxSqOgqhmn/6M+v
+j6sWsu8G6+j5+57MJIMO9R9jK0LI+PoLbJHXOYvSYixbZlNOjHCou8kbCtviAvq9
+zbURj+7Xbsxpxm7A3UvcFJLDjIwNsnFVdkI5lSjXf7YYZZWIfog=
+-----END RSA PRIVATE KEY-----
+</privateKey>
+    </launcher>
+    <api>
+      <dockerHost plugin="docker-commons@439.va_3cb_0a_6a_fb_29">
+        <uri>tcp://172.17.0.1:4243</uri>
+      </dockerHost>
+      <connectTimeout>60</connectTimeout>
+      <readTimeout>60</readTimeout>
+    </api>
+    <containerId>8e2749f261825b8f3b0bde10ba2446d3ba8007aba91091c54a91e164f0f89d6b</containerId>
+  </launcher>
+  <label>docker-agent</label>
+  <nodeProperties/>
+  <containerId>8e2749f261825b8f3b0bde10ba2446d3ba8007aba91091c54a91e164f0f89d6b</containerId>
+  <removeVolumes>false</removeVolumes>
+  <stopTimeout>10</stopTimeout>
+  <cloudId>yonatan</cloudId>
+  <provisioningId plugin="cloud-stats@316.vd6d6b_292238d">
+    <cloudName>yonatan</cloudName>
+    <templateName>docker-agent (jenkins_agent:latest)</templateName>
+    <nodeName>docker-agent-000co2urddh7p</nodeName>
+    <fingerprint>1302674316</fingerprint>
+  </provisioningId>
+  <acceptingTasks>true</acceptingTasks>
+</io.jenkins.docker.DockerTransientNode>

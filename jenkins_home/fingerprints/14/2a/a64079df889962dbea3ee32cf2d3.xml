@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-08-25 15:28:40.20 UTC</timestamp>
+  <md5sum>142aa64079df889962dbea3ee32cf2d3</md5sum>
+  <fileName>Credential id=InstanceIdentity name=jenkins (private key for docker ssh agent)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1271.v54b_1c2c6388a_">
+      <timestamp>1692977320019</timestamp>
+      <nodeName>docker-agent-000co2urddh7p</nodeName>
+      <timestamp0>1692977320019</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
