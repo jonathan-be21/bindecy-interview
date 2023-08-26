@@ -1,6 +1,52 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <org.jenkinsci.plugins.cloudstats.CloudStatistics plugin="cloud-stats@316.vd6d6b_292238d">
-  <active class="java.util.concurrent.CopyOnWriteArrayList"/>
+  <active class="java.util.concurrent.CopyOnWriteArrayList">
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>java-docker-agent (jenkins-agent:latest)</templateName>
+        <fingerprint>533587865</fingerprint>
+      </id>
+      <name>java-docker-agent-000cue3clth8o on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693088076267</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693088076684</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693088080198</started>
+                  <phase>OPERATING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+  </active>
   <log>
     <data>
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
@@ -395,9 +441,9 @@
         <id>
           <cloudName>yonatan</cloudName>
           <templateName>java-docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1832157357</fingerprint>
+          <fingerprint>515058006</fingerprint>
         </id>
-        <name>java-docker-agent (jenkins-agent:latest)</name>
+        <name>java-docker-agent-000cu83fdiyvj on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -405,44 +451,32 @@
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
-                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                        <status>FAIL</status>
-                        <title>SSH service hadn&apos;t started after 20 seconds and 200 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.</title>
-                        <text>java.io.IOException: SSH service hadn&apos;t started after 20 seconds and 200 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.
-	at io.jenkins.docker.connector.DockerComputerSSHConnector.createLauncher(DockerComputerSSHConnector.java:357)
-	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:187)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
-	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</text>
-                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                    </attachments>
-                    <started>1693077536186</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693087606250</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693087606564</started>
+                    <phase>LAUNCHING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693087609956</started>
+                    <phase>OPERATING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693077566157</started>
+                    <started>1693087733540</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5249,7 +5283,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
         </progress>
       </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
     </data>
-    <next>8</next>
+    <next>9</next>
     <size>100</size>
   </log>
 </org.jenkinsci.plugins.cloudstats.CloudStatistics>

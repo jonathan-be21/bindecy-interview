@@ -44,7 +44,7 @@ pipeline {
                             echoPort = "echo -e \"Port ${currentPort}\" >> ${sshdConfigFile}\n"
                             sh "echo \"${echoPort}\" >> ${portsListFile}"
                         }
-                        shellScript = "sshd -t && systemctl restart ssh.service"
+                        shellScript = "sshd -t && systemctl restart sshd.service"
                         sh "echo \"${shellScript}\" >> ${portsListFile}"
                         sh "cat ${portsListFile}"
                     }
