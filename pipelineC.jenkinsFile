@@ -20,7 +20,7 @@ pipeline {
                                               usernameVariable: 'AWS_ACCESS_KEY_ID', 
                                               passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
                             {
-                                sh "terraform init && terraform destroy -auto-approve -no-color"
+                                sh "touch add_ports_SSHD.sh && terraform init && terraform destroy -auto-approve -no-color"
                             }  
                         } catch (error) {
                             throw error
