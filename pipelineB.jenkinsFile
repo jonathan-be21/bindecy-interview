@@ -55,18 +55,20 @@ pipeline {
         stage('Execute Terraform') {
             steps {
                 script {
-                    dir (terraformDir) {
-                        try {
-                            withCredentials([[$class: 'UsernamePasswordMultiBinding', 
-                                              credentialsId: 'aws-creds', 
-                                              usernameVariable: 'AWS_ACCESS_KEY_ID', 
-                                              passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
-                            {
-                                sh "terraform init"
+                    node("terraform-agent") {
+                        dir (terraformDir) {
+                            try {
+                                withCredentials([[$class: 'UsernamePasswordMultiBinding', 
+                                                credentialsId: 'aws-creds', 
+                                                usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                                passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
+                                {
+                                    sh "terraform init"
+                                }
+                                
+                            } catch (error) {
+                                throw error
                             }
-                            
-                        } catch (error) {
-                            throw error
                         }
                     }
                 }

@@ -24,7 +24,6 @@
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
   <clouds>
     <com.nirima.jenkins.plugins.docker.DockerCloud plugin="docker-plugin@1.4">
-      <actions/>
       <name>yonatan</name>
       <templates>
         <com.nirima.jenkins.plugins.docker.DockerTemplate>
@@ -56,6 +55,31 @@
             <disabledByChoice>false</disabledByChoice>
           </disabled>
           <name>java-docker-agent</name>
+        </com.nirima.jenkins.plugins.docker.DockerTemplate>
+        <com.nirima.jenkins.plugins.docker.DockerTemplate>
+          <configVersion>2</configVersion>
+          <labelString>terraform-agent</labelString>
+          <connector class="io.jenkins.docker.connector.DockerComputerAttachConnector"/>
+          <instanceCap>1</instanceCap>
+          <mode>EXCLUSIVE</mode>
+          <retentionStrategy class="com.nirima.jenkins.plugins.docker.strategy.DockerOnceRetentionStrategy">
+            <idleMinutes>10</idleMinutes>
+          </retentionStrategy>
+          <dockerTemplateBase>
+            <image>hashicorp/terraform:light</image>
+            <bindAllPorts>false</bindAllPorts>
+            <cpuPeriod>0</cpuPeriod>
+            <cpuQuota>0</cpuQuota>
+            <privileged>false</privileged>
+            <tty>false</tty>
+          </dockerTemplateBase>
+          <removeVolumes>false</removeVolumes>
+          <stopTimeout>10</stopTimeout>
+          <pullTimeout>300</pullTimeout>
+          <disabled>
+            <disabledByChoice>false</disabledByChoice>
+          </disabled>
+          <name>terraform-agent</name>
         </com.nirima.jenkins.plugins.docker.DockerTemplate>
       </templates>
       <dockerApi>
