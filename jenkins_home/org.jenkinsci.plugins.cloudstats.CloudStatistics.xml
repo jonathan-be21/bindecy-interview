@@ -1,786 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <org.jenkinsci.plugins.cloudstats.CloudStatistics plugin="cloud-stats@316.vd6d6b_292238d">
-  <active class="java.util.concurrent.CopyOnWriteArrayList">
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>710066908</fingerprint>
-      </id>
-      <name>terraform-agent-000csktspsnef on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693082956242</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693082962581</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>2014176836</fingerprint>
-      </id>
-      <name>terraform-agent-000csmez0nxnx on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083086246</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083089704</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1304511114</fingerprint>
-      </id>
-      <name>terraform-agent-000csmjkplnug on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083096265</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083096807</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1485392463</fingerprint>
-      </id>
-      <name>terraform-agent-000csmo68kh7r on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083106255</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083106644</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>573299990</fingerprint>
-      </id>
-      <name>terraform-agent-000csmsrgbibx on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083116263</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083116610</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>202251771</fingerprint>
-      </id>
-      <name>terraform-agent-000csmxcr25ux on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083126268</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083126601</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>229174288</fingerprint>
-      </id>
-      <name>terraform-agent-000csn1ygfjr2 on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083136278</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083136655</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1964763278</fingerprint>
-      </id>
-      <name>terraform-agent-000csn6jhy805 on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083146269</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083146587</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1347271020</fingerprint>
-      </id>
-      <name>terraform-agent-000csnb4kol3x on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083156252</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083156604</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>259809243</fingerprint>
-      </id>
-      <name>terraform-agent-000csnfqfcs4b on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083166280</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083166667</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>288230809</fingerprint>
-      </id>
-      <name>terraform-agent-000csnkbm4thl on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083176266</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083176687</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>958929321</fingerprint>
-      </id>
-      <name>terraform-agent-000csnowqpsox on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083186252</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083186589</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1865439543</fingerprint>
-      </id>
-      <name>terraform-agent-000csntiejjvc on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083196268</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083196631</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>135015132</fingerprint>
-      </id>
-      <name>terraform-agent-000csny3z6x44 on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083206269</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083206640</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>402838341</fingerprint>
-      </id>
-      <name>terraform-agent-000cso2p28q1w on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083216262</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083216718</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1958779337</fingerprint>
-      </id>
-      <name>terraform-agent-000cso7anmbud on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083226265</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083226596</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>904956009</fingerprint>
-      </id>
-      <name>terraform-agent-000csobvn06ix on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083236252</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083236595</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1320520397</fingerprint>
-      </id>
-      <name>terraform-agent-000csoghnmwni on yonatan</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083246269</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083246640</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-      <id>
-        <cloudName>yonatan</cloudName>
-        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
-        <fingerprint>1739674158</fingerprint>
-      </id>
-      <name>terraform-agent (hashicorp/terraform:light)</name>
-      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
-        <java.util.Collections_-SynchronizedMap>
-          <default>
-            <m class="linked-hash-map">
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083256252</started>
-                  <phase>PROVISIONING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                  <started>1693083256635</started>
-                  <phase>LAUNCHING</phase>
-                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-              <entry>
-                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                <null/>
-              </entry>
-            </m>
-            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
-          </default>
-        </java.util.Collections_-SynchronizedMap>
-      </progress>
-    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
-  </active>
+  <active class="java.util.concurrent.CopyOnWriteArrayList"/>
   <log>
     <data>
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
@@ -4540,10 +3760,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1294370800</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>710066908</fingerprint>
         </id>
-        <name>docker-agent-000cobwxf5mo6 on yonatan</name>
+        <name>terraform-agent-000csktspsnef on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4552,7 +3772,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978029385</started>
+                    <started>1693082956242</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4560,7 +3780,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978029688</started>
+                    <started>1693082962581</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4572,7 +3792,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032480</started>
+                    <started>1693083637076</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4585,10 +3805,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>374484070</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>2014176836</fingerprint>
         </id>
-        <name>docker-agent-000cpkpi4etwx on yonatan</name>
+        <name>terraform-agent-000csmez0nxnx on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4597,7 +3817,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074489123</started>
+                    <started>1693083086246</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4605,7 +3825,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074489618</started>
+                    <started>1693083089704</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4617,7 +3837,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032548</started>
+                    <started>1693083757080</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4630,10 +3850,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>915427533</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1304511114</fingerprint>
         </id>
-        <name>docker-agent-000cpk2js1rst on yonatan</name>
+        <name>terraform-agent-000csmjkplnug on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4642,7 +3862,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074439088</started>
+                    <started>1693083096265</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4650,7 +3870,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074440557</started>
+                    <started>1693083096807</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4662,7 +3882,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032616</started>
+                    <started>1693083757146</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4675,10 +3895,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>522398411</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1485392463</fingerprint>
         </id>
-        <name>docker-agent-000cocxodwcn1 on yonatan</name>
+        <name>terraform-agent-000csmo68kh7r on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4687,7 +3907,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978109395</started>
+                    <started>1693083106255</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4695,7 +3915,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978109709</started>
+                    <started>1693083106644</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4707,7 +3927,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032692</started>
+                    <started>1693083757194</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4720,10 +3940,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1270339651</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>573299990</fingerprint>
         </id>
-        <name>docker-agent-000cpl7vl2zmz on yonatan</name>
+        <name>terraform-agent-000csmsrgbibx on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4732,7 +3952,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074529118</started>
+                    <started>1693083116263</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4740,7 +3960,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074529523</started>
+                    <started>1693083116610</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4752,7 +3972,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032752</started>
+                    <started>1693083757242</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4765,10 +3985,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>391131871</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>202251771</fingerprint>
         </id>
-        <name>docker-agent-000cobj4vy8ox on yonatan</name>
+        <name>terraform-agent-000csmxcr25ux on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4777,7 +3997,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977999375</started>
+                    <started>1693083126268</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4785,7 +4005,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977999681</started>
+                    <started>1693083126601</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4797,7 +4017,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032812</started>
+                    <started>1693083757358</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4810,10 +4030,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1143910735</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>229174288</fingerprint>
         </id>
-        <name>docker-agent-000coct2fgncq on yonatan</name>
+        <name>terraform-agent-000csn1ygfjr2 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4822,7 +4042,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978099345</started>
+                    <started>1693083136278</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4830,7 +4050,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978099710</started>
+                    <started>1693083136655</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4842,7 +4062,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032866</started>
+                    <started>1693083757466</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4855,10 +4075,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>623933818</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1964763278</fingerprint>
         </id>
-        <name>docker-agent-000cpkyowx79f on yonatan</name>
+        <name>terraform-agent-000csn6jhy805 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4867,7 +4087,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074509123</started>
+                    <started>1693083146269</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4875,7 +4095,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074509654</started>
+                    <started>1693083146587</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4887,7 +4107,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032920</started>
+                    <started>1693083757538</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4900,10 +4120,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>450118902</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1347271020</fingerprint>
         </id>
-        <name>docker-agent-000cobsbiova3 on yonatan</name>
+        <name>terraform-agent-000csnb4kol3x on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4912,7 +4132,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978019367</started>
+                    <started>1693083156252</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4920,7 +4140,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978019657</started>
+                    <started>1693083156604</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4932,7 +4152,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032970</started>
+                    <started>1693083757582</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4945,10 +4165,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1338482963</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>259809243</fingerprint>
         </id>
-        <name>docker-agent-000coc1ib3ssg on yonatan</name>
+        <name>terraform-agent-000csnfqfcs4b on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -4957,7 +4177,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978039355</started>
+                    <started>1693083166280</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4965,7 +4185,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978039709</started>
+                    <started>1693083166667</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4977,7 +4197,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033016</started>
+                    <started>1693083877079</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -4990,10 +4210,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1843641593</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>288230809</fingerprint>
         </id>
-        <name>docker-agent-000cpkgbd0lib on yonatan</name>
+        <name>terraform-agent-000csnkbm4thl on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5002,7 +4222,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074469114</started>
+                    <started>1693083176266</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5010,7 +4230,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074469662</started>
+                    <started>1693083176687</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5022,7 +4242,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033075</started>
+                    <started>1693083877140</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5035,10 +4255,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1916425091</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>958929321</fingerprint>
         </id>
-        <name>docker-agent-000cplchblfnr on yonatan</name>
+        <name>terraform-agent-000csnowqpsox on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5047,7 +4267,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074539143</started>
+                    <started>1693083186252</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5055,7 +4275,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074539767</started>
+                    <started>1693083186589</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5067,7 +4287,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033136</started>
+                    <started>1693083877186</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5080,10 +4300,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>990560991</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1865439543</fingerprint>
         </id>
-        <name>docker-agent-000cpkbpqpfus on yonatan</name>
+        <name>terraform-agent-000csntiejjvc on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5092,7 +4312,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074459098</started>
+                    <started>1693083196268</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5100,7 +4320,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074459605</started>
+                    <started>1693083196631</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5112,7 +4332,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033228</started>
+                    <started>1693083877245</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5125,10 +4345,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1536760786</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>135015132</fingerprint>
         </id>
-        <name>docker-agent-000cobej8rm9o on yonatan</name>
+        <name>terraform-agent-000csny3z6x44 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5137,7 +4357,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977989359</started>
+                    <started>1693083206269</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5145,7 +4365,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977989799</started>
+                    <started>1693083206640</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5157,7 +4377,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033308</started>
+                    <started>1693083877322</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5170,10 +4390,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>403488641</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>402838341</fingerprint>
         </id>
-        <name>docker-agent-000cpkkwv8vyv on yonatan</name>
+        <name>terraform-agent-000cso2p28q1w on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5182,7 +4402,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074479131</started>
+                    <started>1693083216262</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5190,7 +4410,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074479587</started>
+                    <started>1693083216718</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5202,7 +4422,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033348</started>
+                    <started>1693083877363</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5215,10 +4435,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>695199284</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1958779337</fingerprint>
         </id>
-        <name>docker-agent-000cpl3aq4iv3 on yonatan</name>
+        <name>terraform-agent-000cso7anmbud on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5227,7 +4447,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074519151</started>
+                    <started>1693083226265</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5235,7 +4455,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074519961</started>
+                    <started>1693083226596</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5247,7 +4467,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033396</started>
+                    <started>1693083877410</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5260,10 +4480,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>97733107</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>904956009</fingerprint>
         </id>
-        <name>docker-agent-000cobnq04gcd on yonatan</name>
+        <name>terraform-agent-000csobvn06ix on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5272,7 +4492,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978009361</started>
+                    <started>1693083236252</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5280,7 +4500,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978009692</started>
+                    <started>1693083236595</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5292,7 +4512,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033464</started>
+                    <started>1693083877472</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5305,10 +4525,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1875337590</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1320520397</fingerprint>
         </id>
-        <name>docker-agent-000cpk74k7fop on yonatan</name>
+        <name>terraform-agent-000csoghnmwni on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5317,7 +4537,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074449105</started>
+                    <started>1693083246269</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5325,7 +4545,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074449838</started>
+                    <started>1693083246640</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5337,7 +4557,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033528</started>
+                    <started>1693083877543</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5350,10 +4570,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>214673593</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1739674158</fingerprint>
         </id>
-        <name>docker-agent-000cob9y0amju on yonatan</name>
+        <name>terraform-agent-000csol2m3qrn on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5362,7 +4582,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977979352</started>
+                    <started>1693083256252</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5370,7 +4590,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977979649</started>
+                    <started>1693083256635</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5382,7 +4602,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033579</started>
+                    <started>1693083877586</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5395,10 +4615,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>503998052</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1441691430</fingerprint>
         </id>
-        <name>docker-agent-000cpku3lvvy5 on yonatan</name>
+        <name>terraform-agent-000csopog0bk1 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5407,7 +4627,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074499129</started>
+                    <started>1693083266294</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5415,7 +4635,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074499566</started>
+                    <started>1693083266676</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5427,7 +4647,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075033626</started>
+                    <started>1693083877624</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5440,10 +4660,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1507224187</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1819721725</fingerprint>
         </id>
-        <name>docker-agent-000cpq0duu75s on yonatan</name>
+        <name>terraform-agent-000csou9uioms on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5452,7 +4672,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074904619</started>
+                    <started>1693083276282</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5460,7 +4680,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074905160</started>
+                    <started>1693083276625</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5472,7 +4692,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075245959</started>
+                    <started>1693083877670</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5485,10 +4705,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>181969388</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1414893545</fingerprint>
         </id>
-        <name>docker-agent-000cpuh5u6xp7 on yonatan</name>
+        <name>terraform-agent-000csoyuvy9vu on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5497,7 +4717,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075254608</started>
+                    <started>1693083286271</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5505,7 +4725,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075254962</started>
+                    <started>1693083286642</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5517,7 +4737,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075442982</started>
+                    <started>1693083997105</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5530,10 +4750,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>432600231</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>980832086</fingerprint>
         </id>
-        <name>docker-agent (jenkins-agent:latest)</name>
+        <name>terraform-agent-000csp3g65shf on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5541,34 +4761,18 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
-                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                        <status>FAIL</status>
-                        <title>SSH service hadn&apos;t started after 20 seconds and 259 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.</title>
-                        <text>java.io.IOException: SSH service hadn&apos;t started after 20 seconds and 259 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.
-	at io.jenkins.docker.connector.DockerComputerSSHConnector.createLauncher(DockerComputerSSHConnector.java:357)
-	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:187)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
-	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</text>
-                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                    </attachments>
-                    <started>1693075444592</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693083296259</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693083296930</started>
+                    <phase>LAUNCHING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
@@ -5578,7 +4782,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075474574</started>
+                    <started>1693083997182</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5591,10 +4795,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>2044376993</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1002157223</fingerprint>
         </id>
-        <name>docker-agent-000cpq4z4hq3p on yonatan</name>
+        <name>terraform-agent-000csp81ywe7q on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5603,7 +4807,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074914608</started>
+                    <started>1693083306297</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5611,7 +4815,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074915106</started>
+                    <started>1693083306628</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5623,7 +4827,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075499744</started>
+                    <started>1693083997230</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5636,10 +4840,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>516057531</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>59122517</fingerprint>
         </id>
-        <name>docker-agent-000cpq9ktctga on yonatan</name>
+        <name>terraform-agent-000cspcn1rx4z on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5648,7 +4852,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074924640</started>
+                    <started>1693083316277</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5656,7 +4860,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074925168</started>
+                    <started>1693083316690</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5668,7 +4872,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075503692</started>
+                    <started>1693083997279</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5681,10 +4885,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1233031134</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1303305905</fingerprint>
         </id>
-        <name>docker-agent-000cpqe64tcql on yonatan</name>
+        <name>terraform-agent-000csph8g779u on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5693,7 +4897,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074934639</started>
+                    <started>1693083326276</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5701,7 +4905,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074935172</started>
+                    <started>1693083326617</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5713,7 +4917,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075506576</started>
+                    <started>1693083997333</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5726,10 +4930,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1297511832</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1425780764</fingerprint>
         </id>
-        <name>docker-agent-000cpqirx5eib on yonatan</name>
+        <name>terraform-agent-000cspltqe9o7 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5738,7 +4942,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074944666</started>
+                    <started>1693083336257</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5746,7 +4950,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074945134</started>
+                    <started>1693083336617</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5758,7 +4962,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075509568</started>
+                    <started>1693083997380</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5771,10 +4975,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>519656870</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>516298380</fingerprint>
         </id>
-        <name>docker-agent-000cpqnd02y4i on yonatan</name>
+        <name>terraform-agent-000csq47rvhqa on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5783,7 +4987,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074954645</started>
+                    <started>1693083376307</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5791,7 +4995,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074954993</started>
+                    <started>1693083376783</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5803,7 +5007,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075513172</started>
+                    <started>1693083997428</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5816,10 +5020,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>30972933</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1898114596</fingerprint>
         </id>
-        <name>docker-agent-000cpqry5u6e1 on yonatan</name>
+        <name>terraform-agent-000cspzm1n0p6 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5828,7 +5032,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074964631</started>
+                    <started>1693083366284</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5836,7 +5040,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074965092</started>
+                    <started>1693083366635</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5848,7 +5052,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075518049</started>
+                    <started>1693083997478</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5861,10 +5065,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>758003705</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>343386149</fingerprint>
         </id>
-        <name>docker-agent-000cpqwj9z3pc on yonatan</name>
+        <name>terraform-agent-000cspv0pf31z on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5873,7 +5077,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074974615</started>
+                    <started>1693083356269</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5881,7 +5085,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074975204</started>
+                    <started>1693083356608</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5893,7 +5097,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075521709</started>
+                    <started>1693083997522</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5906,10 +5110,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1760844233</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>2117924637</fingerprint>
         </id>
-        <name>docker-agent-000cpr15juuaq on yonatan</name>
+        <name>terraform-agent-000cspqfcswgv on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -5918,7 +5122,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074984677</started>
+                    <started>1693083346288</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5926,7 +5130,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074985114</started>
+                    <started>1693083346600</started>
                     <phase>LAUNCHING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5938,7 +5142,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075526042</started>
+                    <started>1693083997562</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -6177,7 +5381,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
         </progress>
       </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
     </data>
-    <next>65</next>
+    <next>96</next>
     <size>100</size>
   </log>
 </org.jenkinsci.plugins.cloudstats.CloudStatistics>

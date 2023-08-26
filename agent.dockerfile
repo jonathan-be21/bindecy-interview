@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN   apt-get update && \
       apt-get -qy full-upgrade && \
-      apt-get install -qy git && \
+      apt-get install -qy git gnupg software-properties-common wget unzip && \
       # Install a basic SSH server
       apt-get install -qy openssh-server && \
       sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd && \
@@ -15,6 +15,11 @@ RUN   apt-get update && \
       # Set password for the jenkins user
       echo "jenkins:jenkins" | chpasswd && \
       /usr/bin/ssh-keygen -A && \
+      # Install terraform
+      wget --quiet https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip && \
+      unzip terraform_1.5.4_linux_amd64.zip && \
+      mv terraform /usr/local/bin/ && \
+      rm terraform_1.5.4_linux_amd64.zip && \
       rm -rf /var/lib/apt/lists/*
 
 # Copy authorized keys

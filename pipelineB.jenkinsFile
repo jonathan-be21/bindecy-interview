@@ -5,7 +5,7 @@ def portsListFile = 'ports-list'
 def sshdConfigFile = '/etc/ssh/sshd_config'
 def maxNumbers = []
 pipeline {
-    agent any
+    agent { label "jenkins-agent" }
     stages {
         stage('git') {
             steps {
@@ -49,18 +49,6 @@ pipeline {
                         sh "echo \"${shellScript}\" >> ${portsListFile}"
                         sh "cat ${portsListFile}"
                     }
-                }
-            }
-        }
-        https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip
-        stage('Install Terraform') {
-            steps {
-                script {
-                    sh '''
-                        wget https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip && \
-                        unzip terraform_1.5.4_linux_amd64.zip && \
-                        sudo mv terraform /usr/local/bin/
-                    '''
                 }
             }
         }
