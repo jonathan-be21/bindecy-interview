@@ -5,7 +5,7 @@ def portsListFile = 'ports-list'
 def sshdConfigFile = '/etc/ssh/sshd_config'
 def maxNumbers = []
 pipeline {
-    agent { label "jenkins-agent" }
+    agent { label "java-docker-agent" }
     stages {
         stage('git') {
             steps {

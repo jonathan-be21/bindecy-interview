@@ -10,8 +10,8 @@ pipeline {
             steps {
                 script {
                     for (int i = 0; i < 3; i++) {
-                        node("docker-agent") {
-                            stage('test') {
+                        node('java-docker-agent') {
+                            stage('generate') {
                                 randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
                                 randNumbers << randomNumber
                             }
