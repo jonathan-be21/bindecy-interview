@@ -1,6 +1,786 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <org.jenkinsci.plugins.cloudstats.CloudStatistics plugin="cloud-stats@316.vd6d6b_292238d">
-  <active class="java.util.concurrent.CopyOnWriteArrayList"/>
+  <active class="java.util.concurrent.CopyOnWriteArrayList">
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>710066908</fingerprint>
+      </id>
+      <name>terraform-agent-000csktspsnef on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693082956242</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693082962581</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>2014176836</fingerprint>
+      </id>
+      <name>terraform-agent-000csmez0nxnx on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083086246</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083089704</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1304511114</fingerprint>
+      </id>
+      <name>terraform-agent-000csmjkplnug on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083096265</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083096807</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1485392463</fingerprint>
+      </id>
+      <name>terraform-agent-000csmo68kh7r on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083106255</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083106644</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>573299990</fingerprint>
+      </id>
+      <name>terraform-agent-000csmsrgbibx on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083116263</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083116610</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>202251771</fingerprint>
+      </id>
+      <name>terraform-agent-000csmxcr25ux on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083126268</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083126601</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>229174288</fingerprint>
+      </id>
+      <name>terraform-agent-000csn1ygfjr2 on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083136278</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083136655</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1964763278</fingerprint>
+      </id>
+      <name>terraform-agent-000csn6jhy805 on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083146269</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083146587</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1347271020</fingerprint>
+      </id>
+      <name>terraform-agent-000csnb4kol3x on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083156252</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083156604</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>259809243</fingerprint>
+      </id>
+      <name>terraform-agent-000csnfqfcs4b on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083166280</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083166667</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>288230809</fingerprint>
+      </id>
+      <name>terraform-agent-000csnkbm4thl on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083176266</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083176687</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>958929321</fingerprint>
+      </id>
+      <name>terraform-agent-000csnowqpsox on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083186252</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083186589</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1865439543</fingerprint>
+      </id>
+      <name>terraform-agent-000csntiejjvc on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083196268</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083196631</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>135015132</fingerprint>
+      </id>
+      <name>terraform-agent-000csny3z6x44 on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083206269</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083206640</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>402838341</fingerprint>
+      </id>
+      <name>terraform-agent-000cso2p28q1w on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083216262</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083216718</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1958779337</fingerprint>
+      </id>
+      <name>terraform-agent-000cso7anmbud on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083226265</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083226596</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>904956009</fingerprint>
+      </id>
+      <name>terraform-agent-000csobvn06ix on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083236252</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083236595</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1320520397</fingerprint>
+      </id>
+      <name>terraform-agent-000csoghnmwni on yonatan</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083246269</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083246640</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+    <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <id>
+        <cloudName>yonatan</cloudName>
+        <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+        <fingerprint>1739674158</fingerprint>
+      </id>
+      <name>terraform-agent (hashicorp/terraform:light)</name>
+      <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+        <java.util.Collections_-SynchronizedMap>
+          <default>
+            <m class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083256252</started>
+                  <phase>PROVISIONING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                  <started>1693083256635</started>
+                  <phase>LAUNCHING</phase>
+                </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                <null/>
+              </entry>
+            </m>
+            <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedMap>
+      </progress>
+    </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+  </active>
   <log>
     <data>
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
@@ -3580,10 +4360,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1355785357</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>602821002</fingerprint>
         </id>
-        <name>docker-agent-000co3qwz25a0 on yonatan</name>
+        <name>terraform-agent (hashicorp/terraform:light)</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -3591,18 +4371,33 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977389383</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Container is not running.</title>
+                        <text>java.io.IOException: Container is not running.
+	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:195)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
+	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1693082966250</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692977389690</started>
-                    <phase>LAUNCHING</phase>
-                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <null/>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
@@ -3612,7 +4407,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978093609</started>
+                    <started>1693082986234</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -3625,10 +4420,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>63806371</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>383790895</fingerprint>
         </id>
-        <name>docker-agent-000cppvsmr34s on yonatan</name>
+        <name>terraform-agent (hashicorp/terraform:light)</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -3636,18 +4431,33 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074894590</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Container is not running.</title>
+                        <text>java.io.IOException: Container is not running.
+	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:195)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
+	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1693083006243</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074895226</started>
-                    <phase>LAUNCHING</phase>
-                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <null/>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
@@ -3657,7 +4467,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693074907529</started>
+                    <started>1693083026234</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -3670,10 +4480,10 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
       <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
         <id>
           <cloudName>yonatan</cloudName>
-          <templateName>docker-agent (jenkins_agent:latest)</templateName>
-          <fingerprint>1456148552</fingerprint>
+          <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+          <fingerprint>1970975244</fingerprint>
         </id>
-        <name>docker-agent-000coc644wrgw on yonatan</name>
+        <name>terraform-agent (hashicorp/terraform:light)</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -3681,18 +4491,33 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978049384</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Container is not running.</title>
+                        <text>java.io.IOException: Container is not running.
+	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:195)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
+	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
+	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1693083046261</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1692978049725</started>
-                    <phase>LAUNCHING</phase>
-                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                  <null/>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
@@ -3702,7 +4527,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693075032420</started>
+                    <started>1693083066231</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5352,7 +6177,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
         </progress>
       </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
     </data>
-    <next>62</next>
+    <next>65</next>
     <size>100</size>
   </log>
 </org.jenkinsci.plugins.cloudstats.CloudStatistics>

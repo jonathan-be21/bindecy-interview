@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.docker.DockerTransientNode plugin="docker-plugin@1.4">
+  <name>terraform-agent-000csnkbm4thl</name>
+  <description>Docker Agent [hashicorp/terraform:light on tcp://172.17.0.1:4243 ID 5d984d710c0dbf4f84229d5fb00df28199819b0075202c153a5f48e8387cfab4]</description>
+  <remoteFS>/</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="com.nirima.jenkins.plugins.docker.strategy.DockerOnceRetentionStrategy">
+    <idleMinutes>10</idleMinutes>
+  </retentionStrategy>
+  <launcher class="io.jenkins.docker.connector.DockerDelegatingComputerLauncher">
+    <launcher class="io.jenkins.docker.connector.DockerComputerAttachConnector$DockerAttachLauncher">
+      <api>
+        <dockerHost plugin="docker-commons@439.va_3cb_0a_6a_fb_29">
+          <uri>tcp://172.17.0.1:4243</uri>
+        </dockerHost>
+        <connectTimeout>60</connectTimeout>
+        <readTimeout>60</readTimeout>
+      </api>
+      <containerId>5d984d710c0dbf4f84229d5fb00df28199819b0075202c153a5f48e8387cfab4</containerId>
+      <remoteFs>/</remoteFs>
+      <jvmArgsOrEmpty></jvmArgsOrEmpty>
+      <entryPointCmdOrEmpty></entryPointCmdOrEmpty>
+    </launcher>
+    <api reference="../launcher/api"/>
+    <containerId>5d984d710c0dbf4f84229d5fb00df28199819b0075202c153a5f48e8387cfab4</containerId>
+  </launcher>
+  <label>terraform-agent</label>
+  <nodeProperties/>
+  <containerId>5d984d710c0dbf4f84229d5fb00df28199819b0075202c153a5f48e8387cfab4</containerId>
+  <removeVolumes>false</removeVolumes>
+  <stopTimeout>10</stopTimeout>
+  <cloudId>yonatan</cloudId>
+  <provisioningId plugin="cloud-stats@316.vd6d6b_292238d">
+    <cloudName>yonatan</cloudName>
+    <templateName>terraform-agent (hashicorp/terraform:light)</templateName>
+    <nodeName>terraform-agent-000csnkbm4thl</nodeName>
+    <fingerprint>288230809</fingerprint>
+  </provisioningId>
+  <acceptingTasks>true</acceptingTasks>
+</io.jenkins.docker.DockerTransientNode>

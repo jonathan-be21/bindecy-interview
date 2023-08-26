@@ -52,23 +52,33 @@ pipeline {
                 }
             }
         }
+        https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip
+        stage('Install Terraform') {
+            steps {
+                script {
+                    sh '''
+                        wget https://releases.hashicorp.com/terraform/1.5.4/terraform_1.5.4_linux_amd64.zip && \
+                        unzip terraform_1.5.4_linux_amd64.zip && \
+                        sudo mv terraform /usr/local/bin/
+                    '''
+                }
+            }
+        }
         stage('Execute Terraform') {
             steps {
                 script {
-                    node("terraform-agent") {
-                        dir (terraformDir) {
-                            try {
-                                withCredentials([[$class: 'UsernamePasswordMultiBinding', 
-                                                credentialsId: 'aws-creds', 
-                                                usernameVariable: 'AWS_ACCESS_KEY_ID', 
-                                                passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
-                                {
-                                    sh "terraform init"
-                                }
-                                
-                            } catch (error) {
-                                throw error
+                    dir (terraformDir) {
+                        try {
+                            withCredentials([[$class: 'UsernamePasswordMultiBinding', 
+                                              credentialsId: 'aws-creds', 
+                                              usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                              passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
+                            {
+                                sh "terraform init"
                             }
+                            
+                        } catch (error) {
+                            throw error
                         }
                     }
                 }
