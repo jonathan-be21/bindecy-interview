@@ -14,7 +14,7 @@ pipeline {
                 script {
                     dir (terraformDir) {                        
                         try {
-                            copyArtifacts(projectName: 'pipelineB',selector: lastCompleted(), target: "./")
+                            copyArtifacts(projectName: 'pipelineB',selector: lastSuccessful(), target: "./")
                             withCredentials([[$class: 'UsernamePasswordMultiBinding', 
                                               credentialsId: 'aws-creds', 
                                               usernameVariable: 'AWS_ACCESS_KEY_ID', 
