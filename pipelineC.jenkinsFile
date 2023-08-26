@@ -5,7 +5,7 @@ pipeline {
         stage('git') {
             steps {
                 script {
-                    git branch: 'fix-merge-issues', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                    git branch: 'wip', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
                 }
             }
         }

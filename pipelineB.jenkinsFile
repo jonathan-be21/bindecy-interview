@@ -4,13 +4,14 @@ def terraformLocalsFile = 'locals.tf'
 def portsListFile = 'add_ports_SSHD.sh'
 def sshdConfigFile = '/etc/ssh/sshd_config'
 def maxNumbers = []
+
 pipeline {
     agent { label "java-docker-agent" }
     stages {
         stage('git') {
             steps {
                 script {
-                    git branch: 'fix-merge-issues', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                    git branch: 'wip', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
                 }
             }
         }

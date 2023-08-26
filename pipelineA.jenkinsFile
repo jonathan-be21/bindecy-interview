@@ -1,15 +1,21 @@
 // define values for running in parallel
-def minParallelExec = 10
 def randNumbers = []
 def savedNumbersDir = 'saved-numbers'
 
 pipeline {
     agent any
     stages {
+        stage('git') {
+            steps {
+                script {
+                    git branch: 'wip', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                }
+            }
+        }
         stage('Generate Maximal Number') {
             steps {
                 script {
-                    for (int i = 0; i < 3; i++) {
+                    for (int i = 0; i < 10; i++) {
                         node('java-docker-agent') {
                             stage('generate') {
                                 randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000

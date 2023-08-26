@@ -10,7 +10,7 @@
   <usages>
     <entry>
       <string>pipelineA</string>
-      <ranges>17,20</ranges>
+      <ranges>17,20-21</ranges>
     </entry>
   </usages>
   <facets/>
