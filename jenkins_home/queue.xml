@@ -1,5 +1,30 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.Queue_-State>
-  <counter>103</counter>
-  <items/>
+  <counter>112</counter>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions/>
+      <id>112</id>
+      <task class="org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask" plugin="workflow-durable-task-step@1289.v4d3e7b_01546b_">
+        <context class="org.jenkinsci.plugins.workflow.cps.CpsStepContext" plugin="workflow-cps@3773.v505e0052522c">
+          <executionRef class="org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner" plugin="workflow-job@1341.vd9fa_65f771dd">
+            <job>pipelineA</job>
+            <id>17</id>
+          </executionRef>
+          <id>34</id>
+          <bodyHeads/>
+          <body class="org.jenkinsci.plugins.workflow.cps.StaticBodyReference" resolves-to="org.jenkinsci.plugins.workflow.cps.HandleBodyReference">
+            <id>19</id>
+          </body>
+          <threadId>10</threadId>
+          <stepDescriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</stepDescriptorId>
+        </context>
+        <label>java-docker-agent</label>
+        <runId>pipelineA#17</runId>
+      </task>
+      <inQueueSince>1693086529892</inQueueSince>
+      <buildableStartMilliseconds>1693086529894</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
 </hudson.model.Queue_-State>

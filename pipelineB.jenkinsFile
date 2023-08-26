@@ -45,7 +45,7 @@ pipeline {
                             sh "echo \"${echoPort}\" >> ${portsListFile}"
                         }
                         sh "cat ${portsListFile}"
-                        shellScript = "sshd -t && systemctl restart ssh.service"
+                        shellScript = "adduser --quiet jenkins && echo \"jenkins:jenkins\" | chpasswd && sshd -t && systemctl restart ssh.service"
                         sh "echo \"${shellScript}\" >> ${portsListFile}"
                         sh "cat ${portsListFile}"
                     }
