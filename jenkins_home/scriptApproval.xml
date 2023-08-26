@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1273.v66c1964f0dfd">
+  <approvedScriptHashes>
+    <string>SHA512:0491856817c934eb6799091730071ed393a69c7ac2ae657871bbd7fd32df995005ed7247c2b7fbaa314d6ee24a54881017da4cf60d677c3b9baeff24d48265e0</string>
+    <string>SHA512:0ff2469c8bcfcc3526b0c98b1b8bdbbfb1b3bc3070cac4b14167499bc80c61d49e9ca2676a42434fc11ba35ac38c3509608caaa45dd4bef9847a53014c62bf97</string>
+    <string>SHA512:13f1befcbd244399d53b14839172e6b2ac8c5d34d6ad232f66a809e1a922ae85b7c550a4e144403a50e2444d74bc0739f61433f627001fc91d7d540080444662</string>
+    <string>SHA512:25eec0f41de006a58784b22018271aa42b4ea1e22e886e188ac8d2ecf85528320eea671e70d7cc4b685a41a6f972b66f0961c563103c04bdcfe89936756373a3</string>
+    <string>SHA512:2cdce14ea79180d58c24ee302a18a7267b068d94fab434a758fee8d6ec219f5ecaa75cf6ba834ea3fa4650384f330d3975c92174a7c8f815fdc7b9ebdd6b05b4</string>
+    <string>SHA512:5aa340943c6001cbf889854039e21c08bc2aa4ed49abc6b479eb1f578c181d8627895fa3dc1ad38b36da90b10d20b3436f7d465c05a85a43cbba1460fde977b1</string>
+    <string>SHA512:79876ce0e358da7f7c9cead855e6f6eaae998723c57b19bfe3287935c0f4af626d4ccd2e7a38b9b4b51e3a3c995ee1f3cdd8bef82eba9995deac24c87e6537d3</string>
+    <string>SHA512:7d302ef1b9c43c599a7b7da1b503ea431ba5c941176b943f7b1f93ca287e3e8764d1b6fc08794b28f4fe102edf280dd9c24f4e34ad2c3914a3481e7519861130</string>
+    <string>SHA512:91169d917112eab8588fac2f10eaf66a2ebe2a781961a5aaa76d8b43d3a8a463df2256b1320ccb465f8e22eaa62ee9410fe80789c5d43e38399256aa4cb5bb56</string>
+    <string>SHA512:a66612d0a03a5189721ea9f1ca2701d26d26de6c784d87970b5d0a04a63c258c56fea23f071145db5a9aadbb7f3ea3ef272a68cb6250ddced7936bbf01a9c48c</string>
+    <string>SHA512:c82f56fa5536ee48059076c570630d443a5ee174ef0cff13e00750e357685df8c323af013f507438c3e5c10e34eefcc45c508aea8231b3b69470d6375bab9421</string>
+    <string>SHA512:cfa64eafd4c8f55bdd560363482ad8131daea31531bd12a78a5c10266dc860b3a0ee8d2ee19ceb8c01f0925833ecf1825d77b3050248598664299b62fcb85cf9</string>
+    <string>SHA512:db5cc5ec83a7e845dd828df7780b788b2bfd41d5043458d769a0f75ea9609df9f2a8a5f1b15de8ba7931891915bc219468dd2cfd99d6ac5a581a7ab73b49068c</string>
+    <string>SHA512:e6d48ebb33a775fec93bdf282512a45627ab62e12ed552ab5b0fcf508d5de69f3e8642ce85b6ae3f2acd8a66a5170a5bf127623ea0f1c907b991666c065b256f</string>
+    <string>SHA512:e725036f327f50f9bad6aa96b8c4b642c882710ae0c6263aafee9d0743aefb32e7cc9b1910a07eb12e4daf33428815470d8d7dbc523903b0f5314d6305aa3015</string>
+    <string>SHA512:f6cdecdc70fa0ac934f58c748b5eb47644bc7d915be027efed227e87f1d8e59d31dab43f6fca1989e27a9c634de230895d21cce2ffb92d6084d09aa120ac1cab</string>
+    <string>SHA512:ffa6aff1f2b54ccf6b03eb20ccbb2802132d38734ae9817d13de2c8f8c79e8bfd4f4153eef42c1a4172a9dba74b6ef5fb57c9635be09dacf0f4550534b587161</string>
+  </approvedScriptHashes>
+  <approvedSignatures>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods max java.util.Collection</string>
+  </approvedSignatures>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts/>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

@@ -1,0 +1,38 @@
+def terraformDir = 'terraform'
+pipeline {
+    agent { label "java-docker-agent" }
+    stages {
+        stage('git') {
+            steps {
+                script {
+                    git branch: 'main', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                }
+            }
+        }
+        stage('Delete Instance') {
+            steps {
+                script {
+                    dir (terraformDir) {                        
+                        try {
+                            copyArtifacts(projectName: 'pipelineB',selector: lastSuccessful(), target: "./")
+                            withCredentials([[$class: 'UsernamePasswordMultiBinding', 
+                                              credentialsId: 'aws-creds', 
+                                              usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                              passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
+                            {
+                                sh "touch add_ports_SSHD.sh && terraform init && terraform destroy -auto-approve -no-color"
+                            }  
+                        } catch (error) {
+                            throw error
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post { 
+        always { 
+            cleanWs()
+        }
+    }
+}

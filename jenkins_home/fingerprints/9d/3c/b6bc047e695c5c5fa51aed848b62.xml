@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-08-26 22:08:50.657 UTC</timestamp>
+  <original>
+    <name>pipelineB</name>
+    <number>19</number>
+  </original>
+  <md5sum>9d3cb6bc047e695c5c5fa51aed848b62</md5sum>
+  <fileName>terraform.tfstate</fileName>
+  <usages>
+    <entry>
+      <string>pipelineB</string>
+      <ranges>19</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

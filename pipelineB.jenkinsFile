@@ -1,0 +1,81 @@
+def savedNumbersDir = 'saved-numbers'
+def terraformDir = 'terraform'
+def terraformLocalsFile = 'locals.tf'
+def portsListFile = 'add_ports_SSHD.sh'
+def sshdConfigFile = '/etc/ssh/sshd_config'
+def maxNumbers = []
+
+pipeline {
+    agent { label "java-docker-agent" }
+    stages {
+        stage('git') {
+            steps {
+                script {
+                    git branch: 'main', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                }
+            }
+        }
+        stage('Generate Maximal Number') {
+            steps {
+                script {
+                    copyArtifacts(projectName: 'pipelineA',selector: lastCompleted(), target: "./")
+                    def files = sh(script: "ls ${savedNumbersDir}", returnStdout: true).trim().split("\n")
+                    dir(savedNumbersDir) {
+                        for (file in files) {
+                            def currentMaxNumber = readFile(file)
+                            maxNumbers.add(currentMaxNumber.trim())
+                        }
+                    }
+                }
+            }
+        }
+        stage('Prepare Terraform Files') {
+            steps {
+                script {
+                    dir (terraformDir) {
+                        localsText = "locals {\n ports_in = ${maxNumbers}\n }"
+                        sh "echo \"${localsText}\" > ${terraformLocalsFile}"
+                        sh "cat ${terraformLocalsFile}"
+                        
+                        def shellScript = "#!/bin/bash -xe\n"
+                        sh "echo \"${shellScript}\" > ${portsListFile}"
+
+                        for (currentPort in maxNumbers) {
+                            currentPort = currentPort.trim()
+                            echoPort = "echo -e \"Port ${currentPort}\" >> ${sshdConfigFile}\n"
+                            sh "echo \"${echoPort}\" >> ${portsListFile}"
+                        }
+                        shellScript = "sshd -t && systemctl restart sshd.service"
+                        sh "echo \"${shellScript}\" >> ${portsListFile}"
+                        sh "cat ${portsListFile}"
+                    }
+                }
+            }
+        }
+        stage('Execute Terraform') {
+            steps {
+                script {
+                    dir (terraformDir) {
+                        try {
+                            withCredentials([[$class: 'UsernamePasswordMultiBinding', 
+                                              credentialsId: 'aws-creds', 
+                                              usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                              passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
+                            {
+                                sh "terraform init && terraform apply -auto-approve -no-color"
+                            }  
+                            archiveArtifacts artifacts: "terraform.tfstate", fingerprint: true, onlyIfSuccessful: true                          
+                        } catch (error) {
+                            throw error
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post { 
+        always { 
+            cleanWs()
+        }
+    }
+}

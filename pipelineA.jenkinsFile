@@ -1,0 +1,47 @@
+// define values for running in parallel
+def randNumbers = []
+def savedNumbersDir = 'saved-numbers'
+
+pipeline {
+    agent any
+    stages {
+        stage('git') {
+            steps {
+                script {
+                    git branch: 'main', url: 'https://github.com/jonathan-be21/bindecy-interview.git'
+                }
+            }
+        }
+        stage('Generate Maximal Number') {
+            steps {
+                script {
+                    for (int i = 0; i < 10; i++) {
+                        node('java-docker-agent') {
+                            stage('generate') {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers << randomNumber
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage('Save Maximal Number') {
+            steps {
+                script {
+                    println("randNumbers: ${randNumbers}")
+                    def maximalNumber = randNumbers.max()
+                    println("max number: ${maximalNumber}")
+                    sh "mkdir -p ${savedNumbersDir}"
+                    try {
+                        copyArtifacts(projectName: 'pipelineA',selector: lastSuccessful(), target: savedNumbersDir)
+                    } catch (Exception e) {
+                        println("Error coping artifacts")
+                    }
+                    sh "echo ${maximalNumber} > ${savedNumbersDir}/maximalNumber-${currentBuild.number}.txt"
+                    archiveArtifacts artifacts: "${savedNumbersDir}/*.txt", fingerprint: true, onlyIfSuccessful: true
+                }
+            }
+        }
+    }
+}
