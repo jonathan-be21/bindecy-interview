@@ -1,6 +1,7 @@
 ### jenkins
 jenkins_home/logs/**
 jenkins_home/caches/**
+jenkins_home/jobs/**
 
 ### terraform
 **/.terraform
