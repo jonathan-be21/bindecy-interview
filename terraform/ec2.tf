@@ -6,12 +6,7 @@ resource "aws_instance" "vm" {
   security_groups = [aws_security_group.sg.id]
 
   
-  user_data = <<-EOL
-  #!/bin/bash -xe
-
-  echo -e 'Port 666\nPort 667' >> /etc/ssh/sshd_config && sshd -t && systemctl restart ssh.service
-  
-  EOL
+  user_data = "${file("add_ports_SSHD.sh")}"
 
   tags = {
     Name = "Maximal Number EC2"

@@ -1,7 +1,7 @@
 def savedNumbersDir = 'saved-numbers'
 def terraformDir = 'terraform'
 def terraformLocalsFile = 'locals.tf'
-def portsListFile = 'ports-list'
+def portsListFile = 'add_ports_SSHD.sh'
 def sshdConfigFile = '/etc/ssh/sshd_config'
 def maxNumbers = []
 pipeline {
