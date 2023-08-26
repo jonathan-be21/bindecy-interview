@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-g</title><path d="M336,208V113a80,80,0,0,0-160,0v95" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><rect x="96" y="208" width="320" height="272" rx="48" ry="48" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:54f26c778db09808b70b8f0a7a56a31cee8a274048f4e34ac8e2d9e73f08d745
-size 411
->>>>>>> 01a95f3 (jenkins pipelines A-B)

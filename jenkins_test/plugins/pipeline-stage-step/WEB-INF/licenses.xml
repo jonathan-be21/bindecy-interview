@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='pipeline-stage-step' version='305.ve96d0205c1c6'><l:dependency name='Pipeline: Stage Step' groupId='org.jenkins-ci.plugins' artifactId='pipeline-stage-step' version='305.ve96d0205c1c6' url='https://github.com/jenkinsci/pipeline-stage-step-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebaac62efe037416f770ba830a5632a5577a75785fa812326ec6f6e4e28585fd
-size 540
->>>>>>> 01a95f3 (jenkins pipelines A-B)

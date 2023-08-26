@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ant' version='497.v94e7d9fffa_b_9'><l:dependency name='Ant Plugin' groupId='org.jenkins-ci.plugins' artifactId='ant' version='497.v94e7d9fffa_b_9' url='https://github.com/jenkinsci/ant-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='The MIT license' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:f7a0065d85ec9217ea5e7ca70a4814017d5fee2d14d67a5a83f577161db400cf
-size 490
->>>>>>> 01a95f3 (jenkins pipelines A-B)

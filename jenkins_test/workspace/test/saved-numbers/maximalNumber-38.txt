@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-37682
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d86b3fff6b9c693a6c9179eabc1a060d5cfb7e99ff6e317e7b34ff515fa5ffa
-size 6
->>>>>>> 01a95f3 (jenkins pipelines A-B)

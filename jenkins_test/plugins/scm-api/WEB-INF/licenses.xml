@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='scm-api' version='676.v886669a_199a_a_'><l:dependency name='SCM API Plugin' groupId='org.jenkins-ci.plugins' artifactId='scm-api' version='676.v886669a_199a_a_' url='https://github.com/jenkinsci/scm-api-plugin/blob/master/docs/consumer.adoc'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='The MIT license' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:d7817e07d712bf7ec2e222f8b29b08d8942de3cf17af6705db30247a359c6507
-size 539
->>>>>>> 01a95f3 (jenkins pipelines A-B)

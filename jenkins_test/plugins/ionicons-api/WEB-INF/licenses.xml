@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='io.jenkins.plugins' artifactId='ionicons-api' version='56.v1b_1c8c49374e'><l:dependency name='Ionicons API' groupId='io.jenkins.plugins' artifactId='ionicons-api' version='56.v1b_1c8c49374e' url='https://github.com/jenkinsci/ionicons-api-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:f975cfebecb19ae824a9519d50bb0ca8d24f1a0e3b46a84e8183aad1208064e4
-size 503
->>>>>>> 01a95f3 (jenkins pipelines A-B)

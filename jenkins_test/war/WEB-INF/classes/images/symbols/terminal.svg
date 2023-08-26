@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Terminal</title><rect x="32" y="48" width="448" height="416" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M96 112l80 64-80 64M192 240h64"/></svg>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ae914dd735fbcabcc5dfb73e5df28da98e6408a5a88c94d9b12400bad2c3f58
-size 386
->>>>>>> 01a95f3 (jenkins pipelines A-B)

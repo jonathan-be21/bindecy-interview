@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.modules' artifactId='instance-identity' version='173.va_37c494ec4e5'><l:dependency name='Instance Identity' groupId='org.jenkins-ci.modules' artifactId='instance-identity' version='173.va_37c494ec4e5' url='https://github.com/jenkinsci/instance-identity-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:947e35a57d7ecbb67b3c611573d45c791a5fa13f980cd714b4d8e84417dd5d7d
-size 533
->>>>>>> 01a95f3 (jenkins pipelines A-B)

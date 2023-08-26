@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='structs' version='324.va_f5d6774f3a_d'><l:dependency name='Structs Plugin' groupId='org.jenkins-ci.plugins' artifactId='structs' version='324.va_f5d6774f3a_d' url='https://github.com/jenkinsci/structs-plugin'><l:description>Library plugin for DSL plugins that need names for Jenkins objects.</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b6b569ed9f25975c8b37a2971a8b1dc1355fab67dc1a5a64bff360ebd64b005
-size 531
->>>>>>> 01a95f3 (jenkins pipelines A-B)

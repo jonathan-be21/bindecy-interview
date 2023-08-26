@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-# we don't want robots to click "build" links
-User-agent: *
-Disallow: /
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:759253c1a293a2c51bf2acdc923464c8fd75bdff54d5397b918f58da1a386a18
-size 71
->>>>>>> 01a95f3 (jenkins pipelines A-B)

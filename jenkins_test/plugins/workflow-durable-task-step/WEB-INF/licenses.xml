@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-durable-task-step' version='1284.v4fcd365b_75b_e'><l:dependency name='Pipeline: Nodes and Processes' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-durable-task-step' version='1284.v4fcd365b_75b_e' url='https://github.com/jenkinsci/workflow-durable-task-step-plugin'><l:description>Pipeline steps locking agents and workspaces, and running external processes that may survive a Jenkins restart or agent reconnection.</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ecfb45e8b6f3de1d946102377e5507088edc3e32a734ee24808678ce87df31d
-size 690
->>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='matrix-project' version='802.v8013b_40c7edc'><l:dependency name='Matrix Project Plugin' groupId='org.jenkins-ci.plugins' artifactId='matrix-project' version='802.v8013b_40c7edc' url='https://github.com/jenkinsci/matrix-project-plugin'><l:description>Multi-configuration (matrix) project type.</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:f8a7304dd8c91194a1bb73552b8d97d06f9efb0ee3f27268e7d192a9eae09da1
-size 532
->>>>>>> 01a95f3 (jenkins pipelines A-B)

@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-job' version='1316.vd2290d3341a_f'><l:dependency name='Pipeline: Job' groupId='org.jenkins-ci.plugins.workflow' artifactId='workflow-job' version='1316.vd2290d3341a_f' url='https://github.com/jenkinsci/workflow-job-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT License' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c50ee84fa469f53cb41f5ddfd18c58c891f36278922608774be5aef65f55a3d
-size 534
->>>>>>> 01a95f3 (jenkins pipelines A-B)

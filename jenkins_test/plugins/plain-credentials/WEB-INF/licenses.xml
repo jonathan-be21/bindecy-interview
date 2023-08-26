@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='plain-credentials' version='143.v1b_df8b_d3b_e48'><l:dependency name='Plain Credentials Plugin' groupId='org.jenkins-ci.plugins' artifactId='plain-credentials' version='143.v1b_df8b_d3b_e48' url='https://github.com/jenkinsci/plain-credentials-plugin'><l:description>Allows use of plain strings and files as credentials.</l:description><l:license name='MIT' url='https://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:85270a4b14e60fc224df4111635c035a513d570b50441b50bb8b40d54ca8bf93
-size 551
->>>>>>> 01a95f3 (jenkins pipelines A-B)
