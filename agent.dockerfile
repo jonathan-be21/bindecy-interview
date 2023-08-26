@@ -14,12 +14,13 @@ RUN   apt-get update && \
       adduser --quiet jenkins && \
       # Set password for the jenkins user
       echo "jenkins:jenkins" | chpasswd && \
+      /usr/bin/ssh-keygen -A && \
       rm -rf /var/lib/apt/lists/*
 
 # Copy authorized keys
-#COPY ${HOME}/.ssh/authorized_keys /home/jenkins/.ssh/authorized_keys
+COPY .ssh/jenkins_id_rsa.pub /home/jenkins/.ssh/authorized_keys
 
-#RUN chown -R jenkins:jenkins /home/jenkins/.ssh/
+RUN chown -R jenkins:jenkins /home/jenkins/.ssh/
 
 # Standard SSH port
 EXPOSE 22

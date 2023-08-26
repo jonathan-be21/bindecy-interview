@@ -17,7 +17,7 @@ pipeline {
         stage('Generate Maximal Number') {
             steps {
                 script {
-                    copyArtifacts(projectName: 'test',selector: lastCompleted(), target: "./")
+                    copyArtifacts(projectName: 'pipelineA',selector: lastCompleted(), target: "./")
                     def files = sh(script: "ls ${savedNumbersDir}", returnStdout: true).trim().split("\n")
                     dir(savedNumbersDir) {
                         for (file in files) {
@@ -57,7 +57,11 @@ pipeline {
                 script {
                     dir (terraformDir) {
                         try {
-                            withAWS(credentials: 'jenkins-test-user', region: 'us-east-1') {
+                            withCredentials([[$class: 'UsernamePasswordMultiBinding', 
+                                              credentialsId: 'aws-creds', 
+                                              usernameVariable: 'AWS_ACCESS_KEY_ID', 
+                                              passwordVariable: 'AWS_SECRET_ACCESS_KEY']]) 
+                            {
                                 sh "terraform init"
                             }
                             

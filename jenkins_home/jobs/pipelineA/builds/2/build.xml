@@ -96,17 +96,181 @@
             </agentType>
           </agent>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2144.v077a_d1928a_40">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Generate Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">for (int i = 0; i &lt; 3; i++) {
+                        node(&quot;docker-agent&quot;) {
+                            stage(&apos;test&apos;) {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers &lt;&lt; randomNumber
+                            }
+                        }
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Save Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">println(&quot;randNumbers: ${randNumbers}&quot;)
+                    def maximalNumber = randNumbers.max()
+                    println(&quot;max number: ${maximalNumber}&quot;)
+                    sh &quot;mkdir -p ${savedNumbersDir}&quot;
+                    try {
+                        copyArtifacts(projectName: &apos;test&apos;,selector: lastSuccessful(), target: savedNumbersDir)
+                    } catch (Exception e) {
+                        println(&quot;Error coping artifacts&quot;)
+                    }
+                    sh &quot;echo ${maximalNumber} &gt; ${savedNumbersDir}/maximalNumber-${currentBuild.number}.txt&quot;
+                    archiveArtifacts artifacts: &quot;${savedNumbersDir}/*.txt&quot;, fingerprint: true, onlyIfSuccessful: true</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>074e50fa-3710-44b9-8645-d308a4cf704a</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2144.v077a_d1928a_40">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Generate Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">for (int i = 0; i &lt; 3; i++) {
+                        node(&quot;docker-agent&quot;) {
+                            stage(&apos;test&apos;) {
+                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
+                                randNumbers &lt;&lt; randomNumber
+                            }
+                        }
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Save Maximal Number</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">println(&quot;randNumbers: ${randNumbers}&quot;)
+                    def maximalNumber = randNumbers.max()
+                    println(&quot;max number: ${maximalNumber}&quot;)
+                    sh &quot;mkdir -p ${savedNumbersDir}&quot;
+                    try {
+                        copyArtifacts(projectName: &apos;test&apos;,selector: lastSuccessful(), target: savedNumbersDir)
+                    } catch (Exception e) {
+                        println(&quot;Error coping artifacts&quot;)
+                    }
+                    sh &quot;echo ${maximalNumber} &gt; ${savedNumbersDir}/maximalNumber-${currentBuild.number}.txt&quot;
+                    archiveArtifacts artifacts: &quot;${savedNumbersDir}/*.txt&quot;, fingerprint: true, onlyIfSuccessful: true</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>949e25ed-82d0-49e1-b3b4-8028bc6f429f</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
       </pipelineDefs>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueTaskCancelled plugin="workflow-durable-task-step@1284.v4fcd365b_75b_e"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
   </actions>
-  <queueId>4</queueId>
+  <queueId>9</queueId>
   <timestamp>1692647711404</timestamp>
   <startTime>1692647711411</startTime>
-  <duration>0</duration>
+  <result>ABORTED</result>
+  <duration>427946220</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>ABORTED</result>
     <script>// define values for running in parallel
 def minParallelExec = 10
 def randNumbers = []
@@ -153,28 +317,32 @@ pipeline {
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>239674055</long>
+        <long>933703910</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>436376316</long>
+        <long>13195834391</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>979128070</long>
+        <long>3009424286</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>91193868</long>
+        <long>7627001020</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>211779352</long>
+        <long>1001378949</long>
       </entry>
     </timings>
     <internalCalls class="sorted-set">
+      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.logToTaskListener</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageFailedAndContinued</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.markStageWithTag</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
@@ -191,12 +359,17 @@ pipeline {
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.astUUID</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.environment</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.getEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.hasSatisfiedConditions</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.libraries</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.options</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.post</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.stages</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.tools</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.message</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.SkippedStageReason$Failure.stageStatus</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.&lt;init&gt;</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.agent</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.environment</string>
@@ -206,6 +379,7 @@ pipeline {
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.name</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.options</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.parallel</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.post</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.stages</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.steps</string>
       <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.tools</string>
@@ -218,12 +392,11 @@ pipeline {
       <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
     </internalCalls>
     <sandbox>false</sandbox>
-    <iota>9</iota>
-    <head>1:9</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>21</iota>
+    <head>1:21</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>

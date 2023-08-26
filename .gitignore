@@ -1,6 +1,6 @@
 ### jenkins
-jenkins_test/logs/tasks
-jenkins_test/logs/tasks/*
+jenkins_home/logs/**
+jenkins_home/caches/**
 
 ### terraform
 **/.terraform

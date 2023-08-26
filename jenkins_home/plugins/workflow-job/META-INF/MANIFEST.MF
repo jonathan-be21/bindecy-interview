@@ -4,14 +4,14 @@ Build-Jdk-Spec: 11
 Specification-Title: Pipeline: Job
 Specification-Version: 0.0
 Implementation-Title: Pipeline: Job
-Implementation-Version: 1339.v7ede8a_29ed06
+Implementation-Version: 1341.vd9fa_65f771dd
 Group-Id: org.jenkins-ci.plugins.workflow
 Artifact-Id: workflow-job
 Short-Name: workflow-job
 Long-Name: Pipeline: Job
 Url: https://github.com/jenkinsci/workflow-job-plugin
 Compatible-Since-Version: 2.26
-Plugin-Version: 1339.v7ede8a_29ed06
+Plugin-Version: 1341.vd9fa_65f771dd
 Hudson-Version: 2.414
 Jenkins-Version: 2.414
 Plugin-Dependencies: ionicons-api:56.v1b_1c8c49374e,workflow-api:1251.vd
@@ -22,8 +22,8 @@ Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/workflow-job-
  plugin.git
-Plugin-ScmTag: 7ede8a29ed0616f03b9e8027e4e9b97bb01d6ea6
+Plugin-ScmTag: d9fa65f771dd7e6ff962e7540c867a36e6b2963b
 Plugin-ScmUrl: https://github.com/jenkinsci/workflow-job-plugin
-Plugin-GitHash: 7ede8a29ed0616f03b9e8027e4e9b97bb01d6ea6
-Implementation-Build: 7ede8a29ed0616f03b9e8027e4e9b97bb01d6ea6
+Plugin-GitHash: d9fa65f771dd7e6ff962e7540c867a36e6b2963b
+Implementation-Build: d9fa65f771dd7e6ff962e7540c867a36e6b2963b
 

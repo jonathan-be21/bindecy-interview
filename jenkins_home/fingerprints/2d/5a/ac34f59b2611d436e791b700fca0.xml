@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-08-26 20:15:54.830 UTC</timestamp>
+  <original>
+    <name>pipelineA</name>
+    <number>16</number>
+  </original>
+  <md5sum>2d5aac34f59b2611d436e791b700fca0</md5sum>
+  <fileName>maximalNumber-16.txt</fileName>
+  <usages>
+    <entry>
+      <string>pipelineA</string>
+      <ranges>16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

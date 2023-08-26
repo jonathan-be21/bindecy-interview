@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@848.v5a_383b_d14921">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3773.v505e0052522c">
+    <parentIds>
+      <string>17</string>
+    </parentIds>
+    <id>18</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3773.v505e0052522c">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@325.vcb_307d2a_2782">
+            <symbol>copyArtifacts</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>projectName</string>
+                <string>pipelineA</string>
+              </entry>
+              <entry>
+                <string>selector</string>
+                <org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation plugin="workflow-cps@3773.v505e0052522c">
+                  <symbol>lastCompleted</symbol>
+                  <arguments class="linked-hash-map"/>
+                  <interpolatedStrings/>
+                </org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+              </entry>
+              <entry>
+                <string>target</string>
+                <string>./</string>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1261.va_2ff5204f17e">
+      <startTime>1693081236405</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

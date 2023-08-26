@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-job</artifactId>
-  <version>1339.v7ede8a_29ed06</version>
+  <version>1341.vd9fa_65f771dd</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Job</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -42,7 +42,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/workflow-job-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/workflow-job-plugin.git</developerConnection>
-    <tag>7ede8a29ed0616f03b9e8027e4e9b97bb01d6ea6</tag>
+    <tag>d9fa65f771dd7e6ff962e7540c867a36e6b2963b</tag>
     <url>https://github.com/jenkinsci/workflow-job-plugin</url>
   </scm>
   <distributionManagement>
