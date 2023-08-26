@@ -12,56 +12,25 @@
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3773.v505e0052522c">
-    <script>// define values for running in parallel
-def minParallelExec = 10
-def randNumbers = []
-def savedNumbersDir = &apos;saved-numbers&apos;
-
-pipeline {
-    agent any
-    stages {
-        stage(&apos;git&apos;) {
-            steps {
-                script {
-                    git branch: &apos;wip&apos;, url: &apos;https://github.com/jonathan-be21/bindecy-interview.git&apos;
-                }
-            }
-        }
-        stage(&apos;Generate Maximal Number&apos;) {
-            steps {
-                script {
-                    for (int i = 0; i &lt; 3; i++) {
-                        node(&apos;java-docker-agent&apos;) {
-                            stage(&apos;generate&apos;) {
-                                randomNumber = Math.abs( new Random().nextInt() % (50000 - 2000) ) + 2000
-                                randNumbers &lt;&lt; randomNumber
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        stage(&apos;Save Maximal Number&apos;) {
-            steps {
-                script {
-                    println(&quot;randNumbers: ${randNumbers}&quot;)
-                    def maximalNumber = randNumbers.max()
-                    println(&quot;max number: ${maximalNumber}&quot;)
-                    sh &quot;mkdir -p ${savedNumbersDir}&quot;
-                    try {
-                        copyArtifacts(projectName: &apos;test&apos;,selector: lastSuccessful(), target: savedNumbersDir)
-                    } catch (Exception e) {
-                        println(&quot;Error coping artifacts&quot;)
-                    }
-                    sh &quot;echo ${maximalNumber} &gt; ${savedNumbersDir}/maximalNumber-${currentBuild.number}.txt&quot;
-                    archiveArtifacts artifacts: &quot;${savedNumbersDir}/*.txt&quot;, fingerprint: true, onlyIfSuccessful: true
-                }
-            }
-        }
-    }
-}</script>
-    <sandbox>false</sandbox>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@3773.v505e0052522c">
+    <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.0">
+      <configVersion>2</configVersion>
+      <userRemoteConfigs>
+        <hudson.plugins.git.UserRemoteConfig>
+          <url>https://github.com/jonathan-be21/bindecy-interview.git</url>
+        </hudson.plugins.git.UserRemoteConfig>
+      </userRemoteConfigs>
+      <branches>
+        <hudson.plugins.git.BranchSpec>
+          <name>*/fix-merge-issues</name>
+        </hudson.plugins.git.BranchSpec>
+      </branches>
+      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+      <submoduleCfg class="empty-list"/>
+      <extensions/>
+    </scm>
+    <scriptPath>pipelineA.jenkinsFile</scriptPath>
+    <lightweight>true</lightweight>
   </definition>
   <triggers/>
   <disabled>false</disabled>

@@ -154,9 +154,9 @@
         <id>
           <cloudName>yonatan</cloudName>
           <templateName>java-docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>2101134347</fingerprint>
+          <fingerprint>965434918</fingerprint>
         </id>
-        <name>java-docker-agent (jenkins-agent:latest)</name>
+        <name>java-docker-agent-000ctwhdp3zgd on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -164,44 +164,32 @@
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
-                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                        <status>FAIL</status>
-                        <title>SSH service hadn&apos;t started after 20 seconds and 207 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.</title>
-                        <text>java.io.IOException: SSH service hadn&apos;t started after 20 seconds and 207 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.
-	at io.jenkins.docker.connector.DockerComputerSSHConnector.createLauncher(DockerComputerSSHConnector.java:357)
-	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:187)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
-	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</text>
-                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                    </attachments>
-                    <started>1693077286167</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086696237</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086696577</started>
+                    <phase>LAUNCHING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086700234</started>
+                    <phase>OPERATING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693077316156</started>
+                    <started>1693086786594</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -215,9 +203,9 @@
         <id>
           <cloudName>yonatan</cloudName>
           <templateName>java-docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1731807084</fingerprint>
+          <fingerprint>1420707565</fingerprint>
         </id>
-        <name>java-docker-agent (jenkins-agent:latest)</name>
+        <name>java-docker-agent-000cu020c4nf5 on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -225,44 +213,32 @@
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
-                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                        <status>FAIL</status>
-                        <title>SSH service hadn&apos;t started after 20 seconds and 158 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.</title>
-                        <text>java.io.IOException: SSH service hadn&apos;t started after 20 seconds and 158 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.
-	at io.jenkins.docker.connector.DockerComputerSSHConnector.createLauncher(DockerComputerSSHConnector.java:357)
-	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:187)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
-	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</text>
-                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                    </attachments>
-                    <started>1693077336173</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086976234</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086976712</started>
+                    <phase>LAUNCHING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693086980412</started>
+                    <phase>OPERATING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693077366155</started>
+                    <started>1693087080426</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -276,9 +252,9 @@
         <id>
           <cloudName>yonatan</cloudName>
           <templateName>java-docker-agent (jenkins-agent:latest)</templateName>
-          <fingerprint>1073108170</fingerprint>
+          <fingerprint>112327148</fingerprint>
         </id>
-        <name>java-docker-agent (jenkins-agent:latest)</name>
+        <name>java-docker-agent-000cu1gjlr9kb on yonatan</name>
         <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
           <java.util.Collections_-SynchronizedMap>
             <default>
@@ -286,34 +262,18 @@
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
-                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
-                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                        <status>FAIL</status>
-                        <title>SSH service hadn&apos;t started after 20 seconds and 170 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.</title>
-                        <text>java.io.IOException: SSH service hadn&apos;t started after 20 seconds and 170 milliseconds.Try increasing the number of retries (currently null) and/or the retry wait time (currently null) to allow for containers taking longer to start.
-	at io.jenkins.docker.connector.DockerComputerSSHConnector.createLauncher(DockerComputerSSHConnector.java:357)
-	at io.jenkins.docker.connector.DockerComputerConnector.createLauncher(DockerComputerConnector.java:187)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.doProvisionNode(DockerTemplate.java:754)
-	at com.nirima.jenkins.plugins.docker.DockerTemplate.provisionNode(DockerTemplate.java:682)
-	at com.nirima.jenkins.plugins.docker.DockerCloud$1.run(DockerCloud.java:404)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
-	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</text>
-                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
-                    </attachments>
-                    <started>1693077386174</started>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693087086242</started>
                     <phase>PROVISIONING</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
-                  <null/>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1693087086716</started>
+                    <phase>LAUNCHING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
                 <entry>
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
@@ -323,7 +283,7 @@
                   <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
                   <org.jenkinsci.plugins.cloudstats.PhaseExecution>
                     <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
-                    <started>1693077416156</started>
+                    <started>1693087089898</started>
                     <phase>COMPLETED</phase>
                   </org.jenkinsci.plugins.cloudstats.PhaseExecution>
                 </entry>
@@ -5313,7 +5273,7 @@ Caused: com.github.dockerjava.api.exception.DockerClientException: Could not pul
         </progress>
       </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
     </data>
-    <next>3</next>
+    <next>6</next>
     <size>100</size>
   </log>
 </org.jenkinsci.plugins.cloudstats.CloudStatistics>

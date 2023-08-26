@@ -19,7 +19,9 @@
     <string>SHA512:f6cdecdc70fa0ac934f58c748b5eb47644bc7d915be027efed227e87f1d8e59d31dab43f6fca1989e27a9c634de230895d21cce2ffb92d6084d09aa120ac1cab</string>
     <string>SHA512:ffa6aff1f2b54ccf6b03eb20ccbb2802132d38734ae9817d13de2c8f8c79e8bfd4f4153eef42c1a4172a9dba74b6ef5fb57c9635be09dacf0f4550534b587161</string>
   </approvedScriptHashes>
-  <approvedSignatures/>
+  <approvedSignatures>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods max java.util.Collection</string>
+  </approvedSignatures>
   <aclApprovedSignatures/>
   <approvedClasspathEntries/>
   <pendingScripts/>

@@ -46,7 +46,7 @@ pipeline {
                         }
                         sh "cat ${portsListFile}"
                         shellScript = "adduser --quiet jenkins && echo \"jenkins:jenkins\" | chpasswd && sshd -t && systemctl restart ssh.service"
-                        sh "echo \"${shellScript}\" >> ${portsListFile}"
+                        sh "echo \"${shellScript}\" >> ${portsListFile} && echo \"PasswordAuthentication yes\" >> ${portsListFile}"
                         sh "cat ${portsListFile}"
                     }
                 }
