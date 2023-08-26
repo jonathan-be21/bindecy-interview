@@ -6,7 +6,7 @@ resource "aws_instance" "vm" {
   security_groups = [aws_security_group.sg.id]
 
   
-  user_data = "${file("add_ports_SSHD.sh")}"
+  #user_data = "${file("add_ports_SSHD.sh")}"
 
   tags = {
     Name = "Maximal Number EC2"

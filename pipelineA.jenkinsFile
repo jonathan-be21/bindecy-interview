@@ -28,7 +28,7 @@ pipeline {
                     println("max number: ${maximalNumber}")
                     sh "mkdir -p ${savedNumbersDir}"
                     try {
-                        copyArtifacts(projectName: 'test',selector: lastSuccessful(), target: savedNumbersDir)
+                        copyArtifacts(projectName: 'pipelineA',selector: lastSuccessful(), target: savedNumbersDir)
                     } catch (Exception e) {
                         println("Error coping artifacts")
                     }
