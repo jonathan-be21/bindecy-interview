@@ -22,11 +22,7 @@
       </userRemoteConfigs>
       <branches>
         <hudson.plugins.git.BranchSpec>
-<<<<<<< HEAD
           <name>*/fix-merge-issues</name>
-=======
-          <name>*/main</name>
->>>>>>> fix-merge-issues
         </hudson.plugins.git.BranchSpec>
       </branches>
       <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
