@@ -1,10 +1,10 @@
 ### jenkins
-jenkins_home/logs/**
-jenkins_home/caches/**
-jenkins_home/jobs/**
-!jenkins_home/jobs/pipeline*/config.xml
-jenkins_home/workspace/**
-jenkins_home/nodes/**
+/jenkins_home/logs/**
+/jenkins_home/caches/**
+!/jenkins_home/jobs/pipeline*/config.xml
+/jenkins_home/jobs/**
+/jenkins_home/workspace/**
+/jenkins_home/nodes/**
 
 ### terraform
 **/.terraform
